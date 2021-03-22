@@ -1,0 +1,3 @@
+{ "jsonpaths": [ "$.download_date", "$.user_id", "$.app","$.category","$.rating","$.reviews","$.size",
+"$.installs","$.type","$.price","$.content_rating","$.genres","$.last_updated","$.current_version",
+"$.Android_version","$.app_id","$.user_details" ]}
