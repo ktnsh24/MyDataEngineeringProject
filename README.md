@@ -87,7 +87,7 @@ Write a comprehensive conclusion.
 - What were the biggest challenges
 
 # Follow Me On
-Add the link to your LinkedIn Profile
+https://www.linkedin.com/in/ketan-sahu/
 
 # Appendix
 
