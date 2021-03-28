@@ -84,18 +84,35 @@ In the data preprocessing stage, the data type of the different column is change
 Screenshot 2021-03-28 at 10.30.02 AM![image](https://user-images.githubusercontent.com/36641367/112746682-c6f6a100-8fb0-11eb-970c-6f3556c61a50.png)
 
 # Used Tools
+The data pipeline will build around mulitle tools. These tools can be categorised based on their functionality. Below you can see plateform design for streaming processing.
+Plateform Design![image](https://user-images.githubusercontent.com/36641367/112756166-4356a780-8fe4-11eb-9bfa-00ee6608f359.png)
+
+Below each funcationality is described with tools in detail. 
+
 - Explain which tools do you use and why
 - How do they work (don't go too deep into details, but add links)
 - Why did you choose them
 - How did you set them up
 
+## Client
+In this project, the data avilable for batch and stream processing at the client location is in .csv format. The .csv data will be read by python to post data on API endpoit.
+
+In case of stream processing, the python script (see insert_data_to_api.py in repository) read the data from users_app_details_stream.csv dataset, convert it to JSON format and POST it provided API end Point.
+
+In case of batch processing.............
+
 ## Connect
+In the scenario of stream processing, the connect data pipeline will pull data from a API and send data to buffer. AWS API Gateway Post method is used to pull data from client. Everytime data will reach on API end point, it will trigger the lambda function and send data to AWS Kinesis. ............ 
+
 ## Buffer
+Two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis to queue the data. The data will lineup in Kinesis everytime API end point trigger the lambda function in the AWS.
 ## Processing
 ## Storage
 ## Visualization
 
 # Pipelines
+
+For ease of implementation and testing, we will build the data pipeline in stages. There are 3 stages and these 3 stages shown below
 - Explain the pipelines for processing that you are building
 - Go through your development and add your source code
 
