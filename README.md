@@ -33,7 +33,10 @@ The objective of the project is,
 
 
 # Project Overview and Goals
-For this project I will assume I work for a user behavior analytics company that for streaming purpose continiously in real time collecting users app data and for batch purpose collecting users app data end of the day from different data sources and joins them together to get a broader understanding of the customers. As a comapny, we provide recommandation app charts to users and users app download dehaviour to different app companies based on their age, location, category of app, and time they spent on each apps. 
+For this project I will assume I work for a user behavior analytics company that for streaming purpose continiously in real time collecting users app data and for batch purpose collecting users app data end of the day from different data sources and joins them together to get a broader understanding of the customers. As a comapny, we target both app users and app developers with different services. These services can vary based on custmers and app developers requirement. One of the most valuable service my comapny provide to app users is recommandation app charts to users, so they can get diffrent choices of apps based on their past app use history. One the other side, ap developers can asked for anlaytics about users app download dehaviour based on their age, location, category of app, and time they spent on each apps. Based on this, I have set some goals around this project.
+
+- Create a data pipeline which can help data scientist to access data fast and accuratley to develope their recommandation app charts algorithm for users
+- Cretae a data pipeline which can provide data to draw analytics based on app developers requirement.
 
 # The Data Set
 The source of the part of this dataset is kaggle. The link is attched here. https://www.kaggle.com/lava18/google-play-store-apps
@@ -108,6 +111,7 @@ In the scenario of stream processing, the connect data pipeline will pull data f
 Two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis to queue the data. The data will lineup in Kinesis everytime API end point trigger the lambda function in the AWS.
 ## Processing
 ## Storage
+In this application, the service for storing purpose we want to use to hold and store the raw stream data of varying sizes is S3. S3 stands for simple storage service.
 ## Visualization
 
 # Pipelines
