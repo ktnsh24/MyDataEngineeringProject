@@ -112,11 +112,14 @@ Two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We 
 
 # Pipelines
 
-For ease of implementation and testing, we will build the data pipeline in stages. There are 3 stages and these 3 stages shown below
 - Explain the pipelines for processing that you are building
 - Go through your development and add your source code
 
 ## Stream Processing
+For ease of implementation and testing, we will build the data pipeline in stages. There are 5 stages and these 5 stages shown below.
+DataPipelineDesign![image](https://user-images.githubusercontent.com/36641367/112758625-97b35480-8fef-11eb-899f-fe151b8be046.png)
+
+
 ### Storing Data Stream
 ### Processing Data Stream
 ## Batch Processing
