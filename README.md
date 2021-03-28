@@ -3,7 +3,7 @@
 # Stream and Batch Processing of Intricate Users App Data
 
 # Introduction
-The best way to get a good understanding of any topic is to try it out and build something with it. Following this approach, to understand building an data processing pipeline I build my own. Based on data from open data sources such as kaggle and python faker library that togather have been modified a little to enable joins.
+The best way to get a good understanding of any topic is to try it out and build something with it. Following this approach, to understand building an data processing pipeline I build my own. Based on data from open source plateform such as kaggle and python faker library that togather have been modified a little to enable joins.
 
 The objective of the project is,
 1. Build and understand a data processing framework used for stream and batch data loading by comapanies
@@ -33,7 +33,7 @@ The objective of the project is,
 
 
 # Project Overview and Goals
-For this project I will assume I work for a user behavior analytics company that continiously in real time collecting users app data from different data sources and joins them together to get a broader understanding of the customers. As a comapny, we provide recommandation app charts to users and users app download dehaviour to different app comapnies based on their age, location, category of app, and time they spent on each apps. 
+For this project I will assume I work for a user behavior analytics company that for streaming purpose continiously in real time collecting users app data and for batch purpose collecting users app data end of the day from different data sources and joins them together to get a broader understanding of the customers. As a comapny, we provide recommandation app charts to users and users app download dehaviour to different app companies based on their age, location, category of app, and time they spent on each apps. 
 
 # The Data Set
 The source of the part of this dataset is kaggle. The link is attched here. https://www.kaggle.com/lava18/google-play-store-apps
@@ -42,16 +42,22 @@ The kaggle dataset provides the detailed information about the Google Playstore 
 [image](https://user-images.githubusercontent.com/36641367/111882339-58fd1900-89b5-11eb-9ff3-3cdec7dd34a4.png)
 
 In order to make this dataset more interesting, I've merged a new user details dataset to Google Playstore app dataset. The user details are generated from the faker library of Python.
-The user details dataset include details about 200 users. The user details include user_id, user_name, user_location, and the amount of time (in minute) user spent on the each app. The user detalis are randomly distributed over Google Play app dataset. 
+For the batch processing, the user details dataset include details about 200 users. The user details include user_id, user_name, user_location, and the amount of time (in minute) user spent on the each app. 
+For the stream processing, the user details dataset include details about 1000 users. The user details include user_id, user_name, and user_location. 
 
-Apart from this, a new column download_date is added in the dataset. By adding this new column download_date, we assume that the different Google Playstore apps have been used by different users in between 01-01-2020 and 01-01-2021. We assume, the data is streaming from date 01-01-2020 to 01-01-2021.
+The user detalis are randomly distributed over Google Play app dataset. Below, you can see part of the fake users details dataset.
+Screenshot 2021-03-28 at 11.07.09 AM![image](https://user-images.githubusercontent.com/36641367/112747458-fd82ea80-8fb5-11eb-9f06-d48173562e87.png)
+
+Apart from this, a new column download_date is added in the dataset. 
+For the Batch processing, we assume that the different Google Playstore apps have been downloaded by different users in between 01-01-2020 and 01-01-2021. 
+For stream processing, we assume that the download date is today and data is reaching to API end point on real time.
 [image](https://user-images.githubusercontent.com/36641367/111883131-aed3c000-89b9-11eb-87cc-85be9ae0e730.png)
 
-After merging all the dataset together, I called the dataset "users app data".
+After merging all the dataset together, the dataset used for stream processing called "users_app_data_stream" and for batch processing called "users_app_data_batch".
 
 - Why did I choose and what did I like in this dataset?
 
-As described in the project overview section, as a analytics based comapany, we like to explore users behaviour and want o make their app experinace better. The kaggle dataset provide me detailed information about multiple apps. The apps are precisely distrubted in different app categories, which helps us to compare different apps based on their rating, reviews, installs, and updates. 
+As described in the project overview section, as a analytics based comapany, we like to explore users behaviour and want to make their app experinace better. The kaggle dataset provide me detailed information about multiple apps. The apps are precisely distrubted in different app categories, which helps us to compare different apps based on their rating, reviews, installs, and updates. 
 
 - What is problematic?
 
@@ -59,11 +65,13 @@ In this dataset most of the app type is free. Basically most of the app mentione
 
 # Data Cleaning and Preprocessing
 
-Once the "users app data" is ready, it's a time to make sure that the data is ready enough for streaming and batch processing. In real life, data is reaching on API end point or any database might incluse many nun, duplicates or unexpexted data types in it. Comapnies implemented different staratgy to tackle this issue. below, I will describe how I manages this issue.
+Once the "users_app_data_stream" and "users_app_data_batch" are ready, it's a time to make sure that the data is ready enough for streaming and batch processing. 
+
+In real life, data is reaching on API end point or any cloud database might incluse many nun, duplicates or unexpexted data types in it. Comapnies implemented different staratgy to tackle this issue. Below, I will describe how I manages this issue.
 
 - Data Duplicates
 
-The kaggle google data set include many duplicate entries but once the fake user data set merged in it, all data rows become unique. Hence we don't have duplicate data in our final dataset.
+The kaggle google data set include many duplicate entries but once the fake user dataset merged in it, all data rows become unique. Hence we don't have duplicate data in our final dataset.
 
 - Data Cleaning
 
@@ -72,9 +80,8 @@ By running a simple pyhton code on the users app data I identify the data includ
 
 - Data Preprocessing
 
-In the data preprocessing stage, the data type of the different column is changed.
-
-
+In the data preprocessing stage, the data type of the different column is changed based on the type of data column persist. For example, column "last_updated" type is changed to datetime and the date order is changed to year-month-date.
+Screenshot 2021-03-28 at 10.30.02 AM![image](https://user-images.githubusercontent.com/36641367/112746682-c6f6a100-8fb0-11eb-970c-6f3556c61a50.png)
 
 # Used Tools
 - Explain which tools do you use and why
