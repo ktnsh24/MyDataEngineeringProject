@@ -4,12 +4,12 @@
 
 import pandas as pd
 import requests
-import sched, time
-s = sched.scheduler(time.time, time.sleep)
+import sched
+import time
 
 
 # write all the rows from users_app_data_stream to the api as PUT request
-def sample_function(sc):
+def sample_function():
 
     myURL = "https://zp91xerpvb.execute-api.us-east-1.amazonaws.com/prod_temp/my-first-api"
 
@@ -17,7 +17,7 @@ def sample_function(sc):
     data = pd.read_csv(
         '/Users/ketansahu/Documents/DataEngineeringProject/GitHubRepo/users_app_data_stream.csv', sep=',')
     for i in data.index:
-        #print(i)
+        # print(i)
         try:
             # convert the row to json
             export = data.loc[i].to_json()
@@ -30,10 +30,6 @@ def sample_function(sc):
             print(response)
         except:
             print(data.loc[i])
-    s.enter(60, 1, sample_function, (sc,))
-    
-    
-s.enter(60, 1, sample_function, (s,))
-print("data is send")
-s.run()
 
+    if __name__ == "__main__":
+        sample_function()
