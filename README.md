@@ -96,7 +96,7 @@ In the data preprocessing stage, the data type of the different column is change
 
 # Used Tools
 The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing.
-![](Images/Plateform Design.png)
+![](Images/PlateformDesign.png)
 
 Below each functionality is described with tools in detail.  
 
