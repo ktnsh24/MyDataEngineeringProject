@@ -42,14 +42,14 @@ For this project, I will assume I work for a user behavior analytics company tha
 The source of the part of this dataset is kaggle. The link is attached here. https://www.kaggle.com/lava18/google-play-store-apps
 The kaggle dataset provides detailed information about the Google Play Store apps. See googleplaystore.csv in my GitHub repository.
 
-![](images/KaggleDataset.png)
+![](Images/KaggleDataset.png)
 
 In order to make this dataset more interesting, I've merged a new user details dataset to the Google Play Store app dataset. The user details are generated from the faker library of Python.
 For the batch processing, the user details dataset include details about 200 users. The user details include user_id, user_name, user_location, and the amount of time (in minute) user spent on the each app. 
 For the stream processing, the user details dataset include details about 1000 users. The user details include user_id, user_name, and user_location.  
 
 The user details are randomly distributed over the Google Play Store app dataset. Below, you can see part of the fake user's details dataset.
-![](images/FakeUserDataset.png)
+![](Images/FakeUserDataset.png)
 
 
 Apart from this, a new column download_date is added to the dataset. 
@@ -86,17 +86,17 @@ The kaggle google data set include many duplicate entries but once the fake user
 
 By running a simple python code on the user's app data I identify the data to include Nun in some rows. In the scenario of streaming, we will configure the API end point to validate data. If the data include nun rows, the API end point will reject the data. However, the dataset include an exception, for the rating column which also includes multiple nun values, I made sure the rating is always filled with some values. In order to fill this values I took the median of rating column and filled the nun values.
 
-![](images/FillNan.png)
+![](Images/FillNan.png)
 
 - Data Preprocessing
 
 In the data preprocessing stage, the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
-![](images/users_app_datatype.png)
+![](Images/users_app_datatype.png)
 
 
 # Used Tools
 The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing.
-![](images/Plateform Design.png)
+![](Images/Plateform Design.png)
 
 Below each functionality is described with tools in detail.  
 
@@ -125,7 +125,7 @@ In this application, the service for storing purpose we want to use to hold and 
 
 ## Stream Processing
 For ease of implementation and testing, we will build the data pipeline in stages. There are 5 stages and these 5 stages shown below.
-![](images/DataPipelineDesign.png)
+![](Images/DataPipelineDesign.png)
 
 
 
