@@ -49,6 +49,7 @@ For the batch processing, the user details dataset include details about 200 use
 For the stream processing, the user details dataset include details about 1000 users. The user details include user_id, user_name, and user_location.  
 
 The user details are randomly distributed over the Google Play Store app dataset. Below, you can see part of the fake user's details dataset.
+
 ![](Images/FakeUserDataset.png)
 
 
@@ -91,11 +92,13 @@ By running a simple python code on the user's app data I identify the data to in
 - Data Preprocessing
 
 In the data preprocessing stage, the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
+
 ![](Images/users_app_datatype.png)
 
 
 # Used Tools
 The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing.
+
 ![](Images/PlateformDesign.png)
 
 Below each functionality is described with tools in detail.  
@@ -125,6 +128,7 @@ In this application, the service for storing purpose we want to use to hold and 
 
 ## Stream Processing
 For ease of implementation and testing, we will build the data pipeline in stages. There are 5 stages and these 5 stages shown below.
+
 ![](Images/DataPipelineDesign.png)
 
 
