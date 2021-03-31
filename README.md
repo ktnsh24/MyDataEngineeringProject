@@ -101,25 +101,36 @@ The data pipeline will build around multiple tools. These tools can be categoriz
 
 ![](Images/PlateformDesign.png)
 
-Below each functionality is described with tools in detail.  
+Below each functionality is described with used tools in detail.  
 
 ## Client
 In this project, the data available for batch and stream processing at the client location is in .csv format. The .csv data will be read by python to post data on the API endpoint.
 
-In the case of stream processing, the python script (see insert_data_to_api.py in the repository) read the data from the users_app_details_stream.csv dataset, convert it to JSON format and POST it provided the API endpoint.
+In the case of stream processing, the python script (see insert_data_to_api.py in the repository) read the data from the users_app_details_stream.csv dataset, convert it to JSON format and POST it to the provided API endpoint.
 
-In the case of batch processing.............
+In the case of batch processing,.............
 
 ## Connect
-In the scenario of stream processing, a data pipeline will pull data from an API and send data to the buffer. AWS API Gateway Post method is used to pull data from the client. Every time data will reach to the API endpoint, it will trigger the lambda function and send data to AWS Kinesis. ............ 
+In the scenario of stream processing, a data pipeline will pull data from an API and send data to the buffer. AWS API Gateway POST method is used to pull data from the client. Every time data will reach to the API endpoint, it will trigger the lambda function and send data to AWS Kinesis. 
+
+In the scenario of batch processing,............ 
 
 ## Buffer
-The two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis to queue the data. The data will lineup in Kinesis every time the API endpoint trigger the lambda function in the AWS.
+The two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis in stream processing to queue the data. The data will lineup in Kinesis every time the API endpoint trigger the lambda function in the AWS.
 
 ## Processing
+AWS lambda is used to perform stream processing at different stages. The lambda is used to send data from API to Kinesis, Kinesis to S3 bucket, Kinesis to DynamoDB.
+
+In case of batch processing, AWS Glue is used to perform ETL jobs. Glue take the data from S3 bucket, transform it and, and upload it into redshift schema.
+
 ## Storage
-In this application, the service for storing purpose we want to use to hold and store the raw stream data of varying sizes is S3. S3 stands for simple storage service.
+In the case of stream processing, the service for storing purpose we want to use to hold and store the raw stream data of varying sizes is S3, DynamoDB and Redshift. S3 stands for simple storage service, and it works as a data lake in an AWS environment. S3 will store the data in JSON format. Later the data can be used according to required applications. DynamoDB is a NoSQL database and saving the user's app data in wide column format. AWS redshift is a data warehouse. Redshift allows us to create schema inside its cluster and saved streamed data in a table.
+
+In case batch processing,........
+
 ## Visualization
+Postman REST API is used to print the data based on input user_id. REST API GET method allows us to call database. Here, we are extracting the data from the DynamoDB.
+Apart from it, as a BI tool, Looker is used to performing analytics on data. The Looker is connected to Redshift.
 
 # Pipelines
 
