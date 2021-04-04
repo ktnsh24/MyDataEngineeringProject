@@ -39,13 +39,16 @@ For this project, I will assume I work for a user behavior analytics company tha
 - Create a data pipeline that can provide fault-tolerant data to draw analytics based on app developers requirement
 
 # The Data Set
-The source of the part of this dataset is kaggle. The link is attached here. https://www.kaggle.com/lava18/google-play-store-apps
+In this section, I've described how I've created the dataset to use in this project.
+
+The dataset shown here for performing batch and stream processing is produced by two datasets. The app dataset is accessed from kaggle. The link is attached here. https://www.kaggle.com/lava18/google-play-store-apps
 The kaggle dataset provides detailed information about the Google Play Store apps. See googleplaystore.csv in my GitHub repository.
 
 ![](Images/KaggleDataset.png)
 
-In order to make this dataset more interesting, I've merged a new user details dataset to the Google Play Store app dataset. The user details are generated from the faker library of Python.
-For the batch processing, the user details dataset include details about 200 users. The user details include user_id, user_name, user_location, and the amount of time (in minute) user spent on the each app. 
+The user details dataset is generated from the faker library of Python. In order to make this dataset more interesting, I've merged a new user details dataset to the Google Play Store app dataset. 
+
+For the batch processing, the user details dataset include details about 200 users. The user details include user_id, user_name, user_location, and the amount of time (in minute) user spent on each app. 
 For the stream processing, the user details dataset include details about 1000 users. The user details include user_id, user_name, and user_location.  
 
 The user details are randomly distributed over the Google Play Store app dataset. Below, you can see part of the fake user's details dataset.
@@ -55,14 +58,14 @@ The user details are randomly distributed over the Google Play Store app dataset
 
 Apart from this, a new column download_date is added to the dataset. 
 For the Batch processing, we assume that the different Google Play Store apps have been downloaded by different users between 01-01-2020 and 01-01-2021. 
-For stream processing, we assume that the download date is today and data is reaching to API end point on real time.
+For stream processing, we assume that the download date is today and data is reaching the API endpoint in real-time.
 
-After merging all the dataset together, the dataset used for stream processing called "users_app_data_stream" and for batch processing called "users_app_data_batch".
+After merging all the datasets together, the dataset used for stream processing is called "users_app_stream_client_data" and for batch processing called "users_app_batch_client data".
 
-users_app_data_stream
+users_app_stream_client_data
 add data set here.
 
-users_app_data_stream
+users_app_batch_client data
 add data set here
 
 - Why did I choose, and what did I like in this dataset?
@@ -75,9 +78,7 @@ In this dataset most of the app type is free. Basically, most of the app mention
 
 # Data Cleaning and Preprocessing
 
-Once the "users_app_data_stream" and "users_app_data_batch" are ready, it's time to make sure that the data is ready enough for streaming and batch processing. 
-
-In real life, data is reaching on the API endpoint or any cloud database might include many nun, duplicates or unexpexted data types in it. Comapnies implemented different staratgy to tackle this issue. Below, I will describe how I manages this issue.
+In real life, data is reaching on the API endpoint or any cloud database might include many nuns, duplicates, or unexpected data types in it. Companies implemented different strategies to tackle this issue. After doing, a thorough check on the Google Play Store apps dataset, I find out the dataset has many Nan, duplicates, and unexpected datatypes in a different column. Below, I will describe how I manage data cleaning and preprocessing steps.
 
 - Data Duplicates
 
@@ -85,16 +86,25 @@ The kaggle google data set include many duplicate entries but once the fake user
 
 - Data Cleaning
 
-By running a simple python code on the user's app data I identify the data to include Nun in some rows. In the scenario of streaming, we will configure the API end point to validate data. If the data include nun rows, the API end point will reject the data. However, the dataset include an exception, for the rating column which also includes multiple nun values, I made sure the rating is always filled with some values. In order to fill this values I took the median of rating column and filled the nun values.
+By running a simple python code on the user's app data I identify the data to include Nun in some rows. In the scenario of streaming, we will configure the API endpoint to validate data. If the data include nun rows, the API endpoint will reject the data. However, the dataset includes an exception, for the rating column which also includes multiple nun values, I made sure the rating is always filled with some values. To fill these values, I took the median of the rating column and filled the nun values. 
 
 ![](Images/FillNan.png)
 
+
 - Data Preprocessing
 
-In the data preprocessing stage, the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
+In the data preprocessing stage, only the data type of each column is identified, but no action has been taken.
+The datatype will be changed in the processing stage inside the AWS. 
+
 
 ![](Images/users_app_datatype.png)
 
+- Save Dataset
+At this stage, we make sure the data is ready to go.
+
+In the stream data processing, the data is scheduled to reach the API endpoint every one minute. Airflow is used here for scheduling purposes. The name of the dataset is "users_app_stream_client_data".
+
+In the batch data processing, the data is scheduled to reach the S3 bucket at 23:00 every day. Airflow is used here for scheduling purposes. The name of the dataset is "users_app_batch_client_data".
 
 # Used Tools
 The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing.
@@ -146,6 +156,7 @@ For ease of implementation and testing, we will build the data pipeline in stage
 
 ### Storing Data Stream
 ### Processing Data Stream
+the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
 ## Batch Processing
 ## Visualizations
 
