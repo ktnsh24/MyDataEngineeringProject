@@ -1,0 +1,513 @@
+event_id,download_date,user_id,app,category,rating,reviews,app_size,installs,app_type,price,content_rating,genres,last_updated,current_version,android_version,app_id,user_name,user_age,user_location,time_spent_min
+0,2021-03-31,638,Photo Editor & Candy Camera & Grid & ScrapBook,ART_AND_DESIGN,4.1,159,19000000.0,10000,Free,0.0,Everyone,Art & Design,2018-01-07,1.0.0,4.0.3 and up,7462,Christopher Sanchez,36,Alaska,325
+1,2021-03-31,9,Anime Manga Coloring Book,ART_AND_DESIGN,4.5,5035,11000000.0,100000,Free,0.0,Everyone,Art & Design,2018-07-19,2.20,4.0 and up,1249,Joanna Gallagher,34,Mississippi,391
+2,2021-03-31,515,Art Drawing Ideas,ART_AND_DESIGN,4.1,227,5200000.0,50000,Free,0.0,Everyone,Art & Design,2018-05-31,1.2,2.3 and up,1321,Jean Hall,18,New Jersey,104
+3,2021-03-31,638,Pink Silver Bow Keyboard Theme,ART_AND_DESIGN,4.2,1120,9200000.0,100000,Free,0.0,Everyone,Art & Design,2018-07-12,6.7.12.2018,4.0.3 and up,7507,Christopher Sanchez,36,Alaska,359
+4,2021-03-31,125,Easy Realistic Drawing Tutorial,ART_AND_DESIGN,4.1,223,4200000.0,100000,Free,0.0,Everyone,Art & Design,2017-08-22,1.0,2.3 and up,4361,Jeanette Rodriguez,40,Alaska,225
+5,2021-03-31,196,Pencil Sketch Drawing,ART_AND_DESIGN,3.9,136,4600000.0,10000,Free,0.0,Everyone,Art & Design,2018-07-12,6.0,2.3 and up,7416,Donna Payne DVM,36,Delaware,223
+6,2021-03-31,200,Colorfit - Drawing & Coloring,ART_AND_DESIGN,4.7,20260,25000000.0,500000,Free,0.0,Everyone,Art & Design;Creativity,2017-10-11,1.0.8,4.0.3 and up,3126,Andrea Brown,46,Pennsylvania,335
+7,2021-03-31,293,Harley Quinn wallpapers HD,ART_AND_DESIGN,4.8,192,6000000.0,10000,Free,0.0,Everyone,Art & Design,2018-04-25,1.5,3.0 and up,5626,Valerie Baird,45,Louisiana,307
+8,2021-03-31,343,HD Mickey Minnie Wallpapers,ART_AND_DESIGN,4.7,118,23000000.0,50000,Free,0.0,Everyone,Art & Design,2018-07-07,1.1.3,4.1 and up,5538,Ashley Miller,59,Texas,334
+9,2021-03-31,479,Mcqueen Coloring pages,ART_AND_DESIGN,4.3,61,7000000.0,100000,Free,0.0,Everyone,Art & Design;Action & Adventure,2018-03-07,1.0.0,4.1 and up,6602,Henry Tucker,63,Utah,252
+10,2021-03-31,482,Superheroes Wallpapers | 4K Backgrounds,ART_AND_DESIGN,4.7,7699,4200000.0,500000,Free,0.0,Everyone 10+,Art & Design,2018-07-12,2.2.6.2,4.0.3 and up,8631,Jeffrey Jones,43,Kentucky,314
+11,2021-03-31,42,Boys Photo Editor - Six Pack & Men's Suit,ART_AND_DESIGN,4.1,654,12000000.0,100000,Free,0.0,Everyone,Art & Design,2018-03-20,1.1,4.0.3 and up,2248,Shelley Contreras,61,Missouri,179
+12,2021-03-31,455,Logo Maker - Small Business,ART_AND_DESIGN,4.0,450,14000000.0,100000,Free,0.0,Everyone,Art & Design,2018-04-20,4.0,4.1 and up,6372,Michael Marshall,48,Texas,395
+13,2021-03-31,627,ibis Paint X,ART_AND_DESIGN,4.6,224399,31000000.0,10000000,Free,0.0,Everyone,Art & Design,2018-07-30,5.5.4,4.1 and up,10004,Ashley Lewis,31,Minnesota,186
+14,2021-03-31,631,FlipaClip - Cartoon animation,ART_AND_DESIGN,4.3,194216,39000000.0,5000000,Free,0.0,Everyone,Art & Design,2018-08-03,2.2.5,4.0.3 and up,5023,Jennifer Mendez,32,Georgia,188
+15,2021-03-31,994,350 Diy Room Decor Ideas,ART_AND_DESIGN,4.5,27,17000000.0,10000,Free,0.0,Everyone,Art & Design,2017-11-07,1.0,2.3 and up,554,James Petty,55,Idaho,213
+16,2021-03-31,793,Animated Photo Editor,ART_AND_DESIGN,4.1,203,6100000.0,100000,Free,0.0,Everyone,Art & Design,2018-03-21,1.03,4.0.3 and up,1245,Steven Stewart,22,Iowa,277
+18,2021-03-31,920,Photo Designer - Write your name with shapes,ART_AND_DESIGN,4.7,3632,5500000.0,500000,Free,0.0,Everyone,Art & Design,2018-07-31,3.1,4.1 and up,7460,Gregory Wu,64,Michigan,313
+19,2021-03-31,645,Coloring book moana,ART_AND_DESIGN,3.9,967,14000000.0,500000,Free,0.0,Everyone,Art & Design;Pretend Play,2018-01-15,2.0.0,4.0.3 and up,3132,Donald Rodriguez,44,Texas,100
+20,2021-03-31,361,"U Launcher Lite – FREE Live Cool Themes, Hide Apps",ART_AND_DESIGN,4.7,87510,8700000.0,5000000,Free,0.0,Everyone,Art & Design,2018-08-01,1.2.4,4.0.3 and up,9156,Karen Flores,48,Indiana,316
+21,2021-03-31,723,Sketch - Draw & Paint,ART_AND_DESIGN,4.5,215644,25000000.0,50000000,Free,0.0,Teen,Art & Design,2018-06-08,Varies with device,4.2 and up,8327,Julie Coleman,49,Wyoming,153
+22,2021-03-31,688,Paper flowers instructions,ART_AND_DESIGN,4.4,167,5600000.0,50000,Free,0.0,Everyone,Art & Design,2017-03-26,1.0,2.3 and up,7378,Linda Kennedy,46,Wisconsin,208
+23,2021-03-31,259,Smoke Effect Photo Maker - Smoke Editor,ART_AND_DESIGN,3.8,178,19000000.0,50000,Free,0.0,Everyone,Art & Design,2018-04-26,1.1,4.0.3 and up,8380,Amy Thompson,56,Washington,259
+24,2021-03-31,937,Infinite Painter,ART_AND_DESIGN,4.1,36815,29000000.0,1000000,Free,0.0,Everyone,Art & Design,2018-06-14,6.1.61.1,4.2 and up,5878,Erin Montoya,35,Vermont,295
+25,2021-03-31,816,Pixel Draw - Number Art Coloring Book,ART_AND_DESIGN,4.3,967,2800000.0,100000,Free,0.0,Everyone,Art & Design;Creativity,2018-06-20,1.1,4.4 and up,7522,Kelly Alvarez,49,Utah,228
+26,2021-03-31,684,Kids Paint Free - Drawing Fun,ART_AND_DESIGN,4.7,121,3100000.0,10000,Free,0.0,Everyone,Art & Design;Creativity,2018-07-03,2.8,4.0.3 and up,6091,Adam Saunders,46,Michigan,236
+27,2021-03-31,4,Text on Photo - Fonteee,ART_AND_DESIGN,4.4,13880,28000000.0,1000000,Free,0.0,Everyone,Art & Design,2017-10-27,1.0.4,4.1 and up,8832,Matthew Lloyd,55,Oregon,96
+28,2021-03-31,266,Name Art Photo Editor - Focus n Filters,ART_AND_DESIGN,4.4,8788,12000000.0,1000000,Free,0.0,Everyone,Art & Design,2018-07-31,1.0.15,4.0 and up,7023,Donna Keller,23,Nevada,294
+29,2021-03-31,923,Tattoo Name On My Photo Editor,ART_AND_DESIGN,4.2,44829,20000000.0,10000000,Free,0.0,Teen,Art & Design,2018-04-02,3.8,4.1 and up,8776,Luis Mckay,58,New Hampshire,107
+30,2021-03-31,787,Mandala Coloring Book,ART_AND_DESIGN,4.6,4326,21000000.0,100000,Free,0.0,Everyone,Art & Design,2018-06-26,1.0.4,4.4 and up,6525,Danielle George,19,Texas,398
+31,2021-03-31,11,Garden Coloring Book,ART_AND_DESIGN,4.4,13791,33000000.0,1000000,Free,0.0,Everyone,Art & Design,2017-09-20,2.9.2,3.0 and up,5304,Kenneth Hays,61,Vermont,335
+32,2021-03-31,813,3D Color Pixel by Number - Sandbox Art Coloring,ART_AND_DESIGN,4.4,1518,37000000.0,100000,Free,0.0,Everyone,Art & Design,2018-08-03,1.2.3,2.3 and up,560,Douglas Gill,56,Mississippi,384
+33,2021-04-01,551,Used Cars Mexico,AUTO_AND_VEHICLES,4.0,190,2500000.0,50000,Free,0.0,Everyone,Auto & Vehicles,2016-10-14,1.0,2.3 and up,9256,Michael Lewis,44,Florida,150
+34,2021-04-01,945,Check Vehicle Tax,AUTO_AND_VEHICLES,3.9,295,2700000.0,10000,Free,0.0,Everyone,Auto & Vehicles,2018-07-30,0.2.1,4.4 and up,2983,Barry Adams,60,South Dakota,199
+35,2021-04-01,165,DMV Permit Practice Test 2018 Edition,AUTO_AND_VEHICLES,4.9,6090,27000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-03,1.7,4.2 and up,3466,Stephen Reyes,43,Mississippi,236
+36,2021-04-01,462,Free VIN Report for Used Cars,AUTO_AND_VEHICLES,4.6,2431,2400000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-06-12,1.37,4.0 and up,5147,Matthew Cooper,59,Alaska,301
+37,2021-04-01,346,CDL Practice Test 2018 Edition,AUTO_AND_VEHICLES,4.9,7774,17000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-03,1.7,4.2 and up,2455,Virginia Miller,29,Delaware,168
+38,2021-04-01,677,CityBus Lviv,AUTO_AND_VEHICLES,4.6,534,5700000.0,10000,Free,0.0,Everyone,Auto & Vehicles,2018-07-08,1.9.1,4.0.3 and up,3052,Natalie Chase DVM,41,North Carolina,93
+39,2021-04-01,642,Ulysse Speedometer,AUTO_AND_VEHICLES,4.3,40211,0.0,5000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-30,Varies with device,Varies with device,9223,Melissa Carrillo,58,Hawaii,348
+40,2021-04-01,113,"REG - Check the regnumber, find information about Swedish vehicles",AUTO_AND_VEHICLES,3.9,3971,3600000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-30,2.493,4.4 and up,7790,David Cherry,27,West Virginia,142
+41,2021-04-01,854,"ezETC (ETC balance inquiry, meter trial, real-time traffic)",AUTO_AND_VEHICLES,4.3,38846,8600000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-28,2.20 Build 02,4.1 and up,9952,Andrea Hughes,43,Alabama,92
+42,2021-04-01,80,REPUVE,AUTO_AND_VEHICLES,3.9,356,0.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-05-25,Varies with device,Varies with device,7793,Christopher Powell,57,Indiana,366
+43,2021-04-01,949,Police Detector (Speed Camera Radar),AUTO_AND_VEHICLES,4.3,3574,3900000.0,1000000,Free,0.0,Everyone 10+,Auto & Vehicles,2018-07-04,1.6,4.0 and up,7589,Sarah Anderson,29,Florida,378
+44,2021-04-01,201,"Fines of the State Traffic Safety Inspectorate are official: inspection, payment of fines",AUTO_AND_VEHICLES,4.8,116986,35000000.0,5000000,Free,0.0,Everyone,Auto & Vehicles,2018-08-02,1.9.7,4.0.3 and up,4959,Shelby Jones,29,Vermont,140
+45,2021-04-01,293,SK Enca Direct Malls - Used Cars Search,AUTO_AND_VEHICLES,3.6,1379,16000000.0,500000,Free,0.0,Everyone,Auto & Vehicles,2018-08-02,2.2.21,4.2 and up,8088,Valerie Baird,45,Louisiana,339
+46,2021-04-01,94,"Android Auto - Maps, Media, Messaging & Voice",AUTO_AND_VEHICLES,4.2,271920,16000000.0,10000000,Free,0.0,Teen,Auto & Vehicles,2018-07-11,Varies with device,5.0 and up,1214,Alison Cole,20,Massachusetts,321
+47,2021-04-01,317,PDD-UA,AUTO_AND_VEHICLES,4.8,736,0.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-29,2.9,2.3.3 and up,7320,Sean Willis,39,New Hampshire,308
+48,2021-04-01,381,Tickets SDA 2019 + Exam RF,AUTO_AND_VEHICLES,4.8,7021,17000000.0,500000,Free,0.0,Everyone,Auto & Vehicles,2018-07-27,1.79,4.0 and up,8971,David Wyatt,56,New Mexico,254
+49,2021-04-01,692,"Police Lights, Sirens & Follow Me",AUTO_AND_VEHICLES,4.5,737,8900000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-06-08,2.3.5.1,4.1 and up,7591,Crystal Bennett,40,Oklahoma,399
+50,2021-04-01,441,Best Car Wallpapers,AUTO_AND_VEHICLES,4.5,994,2900000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-03-27,1.6,4.1 and up,2046,Frank Brown,27,Wyoming,106
+51,2021-04-01,824,Tickets + PDA 2018 Exam,AUTO_AND_VEHICLES,4.9,197136,38000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-15,8.31,4.1 and up,8969,Christopher Brown,51,Louisiana,250
+52,2021-04-01,988,Pick Your Part Garage,AUTO_AND_VEHICLES,3.9,142,32000000.0,50000,Free,0.0,Everyone,Auto & Vehicles,2018-07-24,1.1.5.0,6.0 and up,7494,Jean Kemp,25,Florida,226
+53,2021-04-01,793,Restart Navigator,AUTO_AND_VEHICLES,4.0,1403,201000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2014-08-26,1.0.1,2.2 and up,7940,Steven Stewart,22,Iowa,110
+54,2021-04-01,68,Used cars for sale - Trovit,AUTO_AND_VEHICLES,4.2,52530,7000000.0,5000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-16,4.47.3,4.0.3 and up,9260,Kristy Adams,24,Maryland,90
+55,2021-04-01,114,Extreme Rally Championship,AUTO_AND_VEHICLES,4.2,129,54000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-26,3.0,4.1 and up,4571,Amber Henderson MD,37,Vermont,178
+56,2021-04-01,836,Super Cars Wallpapers And Backgrounds,AUTO_AND_VEHICLES,4.6,197,3400000.0,50000,Free,0.0,Everyone,Auto & Vehicles,2018-06-14,1.3,4.0 and up,8598,Gina Taylor,55,Utah,345
+57,2021-04-01,764,Tickets SDA 2018 and Exam from the State Traffic Safety Inspectorate with Drom.ru,AUTO_AND_VEHICLES,4.9,10479,33000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-18,1.7.1,4.0 and up,8970,Terri Love,32,Ohio,337
+58,2021-04-01,80,I Creative Idea,ART_AND_DESIGN,4.7,353,4200000.0,10000,Free,0.0,Teen,Art & Design,2018-04-27,1.6,4.1 and up,5806,Christopher Powell,57,Indiana,385
+59,2021-04-01,845,How to draw Ladybug and Cat Noir,ART_AND_DESIGN,3.8,564,9200000.0,100000,Free,0.0,Everyone,Art & Design,2018-07-11,2.1,4.1 and up,5769,John Benson MD,47,Rhode Island,177
+60,2021-04-01,633,UNICORN - Color By Number & Pixel Art Coloring,ART_AND_DESIGN,4.7,8145,24000000.0,500000,Free,0.0,Everyone,Art & Design;Creativity,2018-08-02,1.0.9,4.4 and up,9178,Anthony Sims,39,Oregon,372
+61,2021-04-01,917,Floor Plan Creator,ART_AND_DESIGN,4.1,36639,0.0,5000000,Free,0.0,Everyone,Art & Design,2018-07-14,Varies with device,2.3.3 and up,5032,Jennifer Rodriguez,49,Nebraska,340
+62,2021-04-01,990,PIP Camera - PIP Collage Maker,ART_AND_DESIGN,4.7,158,11000000.0,10000,Free,0.0,Everyone,Art & Design,2017-11-29,1.3,4.0.3 and up,7333,Thomas Whitney,45,Iowa,347
+63,2021-04-01,901,How To Color Disney Princess - Coloring Pages,ART_AND_DESIGN,4.0,591,9400000.0,500000,Free,0.0,Everyone,Art & Design,2018-03-31,1,4.0 and up,5761,Shawn Jackson,60,Texas,242
+64,2021-04-01,938,Drawing Clothes Fashion Ideas,ART_AND_DESIGN,4.2,117,15000000.0,10000,Free,0.0,Everyone,Art & Design,2018-07-20,2.0.1,4.0.3 and up,3955,Diane Hubbard,43,Kentucky,211
+65,2021-04-01,197,Sad Poetry Photo Frames 2018,ART_AND_DESIGN,4.5,176,10000000.0,100000,Free,0.0,Everyone,Art & Design,2018-04-02,1.0,4.0.3 and up,8121,Yvette Odom,21,Louisiana,103
+66,2021-04-01,115,Textgram - write on photos,ART_AND_DESIGN,4.4,295221,0.0,10000000,Free,0.0,Everyone,Art & Design,2018-07-30,Varies with device,Varies with device,8834,Brenda Monroe,58,Tennessee,117
+67,2021-04-01,854,Paint Splash!,ART_AND_DESIGN,3.8,2206,1200000.0,100000,Free,0.0,Everyone,Art & Design;Creativity,2018-04-15,1.46,4.1 and up,7371,Andrea Hughes,43,Alabama,367
+68,2021-04-01,330,Easy Origami Ideas,ART_AND_DESIGN,4.2,1015,11000000.0,100000,Free,0.0,Everyone,Art & Design,2018-01-06,1.1.0,4.1 and up,4360,Nicole Morris,46,Georgia,153
+69,2021-04-01,545,"Canva: Poster, banner, card maker & graphic design",ART_AND_DESIGN,4.7,174531,24000000.0,10000000,Free,0.0,Everyone,Art & Design,2018-07-31,1.6.1,4.1 and up,2872,Patrick Ryan,22,Alabama,311
+70,2021-04-01,444,Popsicle Sticks and Similar DIY Craft Ideas,ART_AND_DESIGN,4.2,26,12000000.0,10000,Free,0.0,Everyone,Art & Design,2018-01-03,1.0.0,4.1 and up,7602,Anthony Garcia,37,Nevada,303
+71,2021-04-01,280,Offroad Oil Tanker Driver Transport Truck 2019,AUTO_AND_VEHICLES,4.3,542,33000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-31,4.0,4.1 and up,7219,Brandon Reed,50,Iowa,175
+72,2021-04-01,889,American Muscle Car Race,AUTO_AND_VEHICLES,3.9,129,35000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-26,3.0,4.1 and up,1195,Hayden Smith,63,Minnesota,166
+73,2021-04-01,719,Used Cars and Trucks for Sale,AUTO_AND_VEHICLES,4.6,17057,0.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-30,Varies with device,Varies with device,9257,Catherine Jennings,18,Iowa,267
+74,2021-04-01,309,Ultimate F1 Racing Championship,AUTO_AND_VEHICLES,3.8,284,57000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-26,3.0,4.1 and up,9214,Christopher Jacobson,61,Ohio,309
+75,2021-04-01,184,Gas Prices (Germany only),AUTO_AND_VEHICLES,4.4,805,5600000.0,50000,Free,0.0,Everyone,Auto & Vehicles,2018-07-29,2.5.1,4.4 and up,5311,Rachel Chambers,52,Vermont,138
+76,2021-04-01,415,Real Tractor Farming,AUTO_AND_VEHICLES,4.0,1598,56000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-26,11.0,4.1 and up,7880,Donna Wilcox,58,New Hampshire,132
+77,2021-04-01,630,Monster Truck Stunt 3D 2019,AUTO_AND_VEHICLES,4.2,367,25000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-05-10,1.0,4.0.3 and up,6797,Jennifer Pineda,54,Louisiana,162
+78,2021-04-01,866,How To Draw Food,ART_AND_DESIGN,4.3,845,7900000.0,100000,Free,0.0,Everyone,Art & Design,2018-05-28,1.0,2.3 and up,5762,Billy Harmon,45,Rhode Island,294
+79,2021-04-01,485,Little Teddy Bear Colouring Book Game,ART_AND_DESIGN,4.2,85,8000000.0,100000,Free,0.0,Everyone,Art & Design,2017-12-17,2.0.0,4.1 and up,6343,Randy Durham,62,Wisconsin,124
+80,2021-04-01,330,Install images with music to make video without Net - 2018,ART_AND_DESIGN,4.6,1070,26000000.0,100000,Free,0.0,Everyone,Art & Design,2017-11-14,1.6,4.1 and up,5900,Nicole Morris,46,Georgia,118
+81,2021-04-02,558,Tie - Always be happy,BEAUTY,4.7,964,9000000.0,50000,Free,0.0,Everyone,Beauty,2018-06-21,4.0,4.2 and up,8972,Zachary Byrd,64,South Carolina,382
+82,2021-04-02,276,Ulta Beauty,BEAUTY,4.7,42050,0.0,1000000,Free,0.0,Everyone,Beauty,2018-06-05,5.4,5.0 and up,9204,Joshua Burke,43,Arizona,246
+83,2021-04-02,470,Prom MakeUp Tutorial,BEAUTY,4.8,104,12000000.0,10000,Free,0.0,Everyone,Beauty,2018-06-26,1.3,4.0.3 and up,7667,Jennifer Koch,61,Massachusetts,191
+84,2021-04-02,839,Selfie Camera,BEAUTY,4.2,17934,0.0,1000000,Free,0.0,Everyone,Beauty,2017-09-12,Varies with device,Varies with device,8228,Janice Perry,45,Pennsylvania,161
+85,2021-04-02,525,Sweet Selfie Beauty Camera,BEAUTY,4.3,601,35000000.0,100000,Free,0.0,Everyone,Beauty,2018-06-02,2.0.0,4.0 and up,8659,Curtis Martinez,46,New Jersey,273
+86,2021-04-02,8,Colors of white in Urdu,BEAUTY,4.5,36,6700000.0,10000,Free,0.0,Everyone,Beauty,2018-07-26,6.0,4.0 and up,3133,Susan Brown,55,Washington,324
+87,2021-04-02,13,Selfie Camera Photo Editor & Filter & Sticker,BEAUTY,4.1,187,30000000.0,50000,Free,0.0,Teen,Beauty,2018-07-24,3.0.1,4.0.3 and up,8230,Karen Hudson,23,Connecticut,367
+88,2021-04-02,654,Wrinkles and rejuvenation,BEAUTY,4.3,182,5700000.0,100000,Free,0.0,Everyone 10+,Beauty,2017-09-20,8.0,3.0 and up,9649,Robert Anderson,56,Arizona,95
+89,2021-04-02,119,Eyes Makeup Beauty Tips,BEAUTY,4.2,30,2900000.0,10000,Free,0.0,Everyone,Beauty,2018-04-09,3.3.9,4.0.3 and up,4583,Michael Duffy,28,Michigan,136
+90,2021-04-02,33,Photo Editor 2018,BEAUTY,4.5,134,17000000.0,10000,Free,0.0,Everyone,Beauty,2018-03-01,1.20,4.0.3 and up,7464,Caleb Snyder,41,North Dakota,311
+91,2021-04-02,251,Step By Step Eyes Makeup Tutorial,BEAUTY,4.4,74,2900000.0,10000,Free,0.0,Everyone,Beauty,2018-04-05,2.3.09,4.0.3 and up,8530,Mr. Justin Villa,24,South Dakota,352
+92,2021-04-02,385,Girls Hairstyles,BEAUTY,4.1,3595,0.0,500000,Free,0.0,Everyone,Beauty,2018-05-24,Varies with device,4.0 and up,5350,Paul King,56,Washington,176
+93,2021-04-02,923,Makeup Videos,BEAUTY,3.8,9,3400000.0,5000,Free,0.0,Everyone,Beauty,2018-06-07,1.0,4.0 and up,6518,Luis Mckay,58,New Hampshire,261
+94,2021-04-02,247,Mirror Camera (Mirror + Selfie Camera),BEAUTY,4.1,9315,2600000.0,1000000,Free,0.0,Everyone,Beauty,2017-11-21,1.4.2,4.0 and up,6731,Daniel Brown,56,Wyoming,385
+95,2021-04-02,356,Beauty Tips - Beauty Tips in Sinhala,BEAUTY,4.4,75,4200000.0,50000,Free,0.0,Everyone,Beauty,2017-10-18,1.0.0,4.0.3 and up,2015,Dominic Crane,30,Alabama,280
+96,2021-04-02,868,Haircut Tutorials/Haircut Videos,BEAUTY,4.6,38,7100000.0,10000,Free,0.0,Everyone,Beauty,2018-05-29,1.0,4.0 and up,5604,Suzanne Robles,43,Louisiana,337
+97,2021-04-02,852,Manicure - nail design,BEAUTY,4.3,119,3700000.0,50000,Free,0.0,Everyone,Beauty,2018-07-23,1.3,4.1 and up,6537,Ronald Montgomery,38,Iowa,372
+98,2021-04-02,685,"Sticker Camera - Selfie Filters, Beauty Camera",BEAUTY,3.9,2277,22000000.0,500000,Free,0.0,Everyone,Beauty,2018-07-12,1.1.0,4.0.3 and up,8536,Donald Hoover,51,Connecticut,214
+99,2021-04-02,26,Filters for B Live,BEAUTY,4.4,2280,24000000.0,500000,Free,0.0,Everyone,Beauty,2018-05-14,1.1.0,4.0 and up,4943,Mr. Chase Harris,59,Indiana,223
+100,2021-04-02,318,Skin Care and Natural Beauty,BEAUTY,4.3,654,7400000.0,100000,Free,0.0,Teen,Beauty,2018-07-17,1.15,4.1 and up,8332,Curtis Powell,51,New Hampshire,235
+101,2021-04-02,953,Facial Wrinkle Reduction,BEAUTY,4.6,184,21000000.0,10000,Free,0.0,Everyone,Beauty,2018-07-02,1.5,4.1 and up,4838,Nathan Townsend,38,Arkansas,135
+102,2021-04-02,473,Filters for Selfie,BEAUTY,4.3,8572,25000000.0,1000000,Free,0.0,Everyone,Beauty,2018-05-10,1.1.0,4.0 and up,4944,Mark Hill,45,Massachusetts,101
+103,2021-04-02,722,Beauty Camera - Selfie Camera,BEAUTY,4.0,113715,0.0,10000000,Free,0.0,Everyone,Beauty,2017-08-03,Varies with device,Varies with device,2009,James Williams,38,Indiana,182
+104,2021-04-02,806,"Sephora: Skin Care, Beauty Makeup & Fragrance Shop",BEAUTY,4.5,26834,57000000.0,1000000,Free,0.0,Everyone,Beauty,2018-07-24,18.5,5.0 and up,8238,Colleen Wall,23,Ohio,214
+105,2021-04-02,959,Hairstyles step by step,BEAUTY,4.6,4369,14000000.0,100000,Free,0.0,Everyone,Beauty,2018-07-25,1.9,4.0.3 and up,5605,Ryan Lewis,29,Kansas,204
+106,2021-04-02,634,Mirror - Zoom & Exposure -,BEAUTY,3.9,32090,0.0,1000000,Free,0.0,Everyone,Beauty,2016-10-24,Varies with device,Varies with device,6730,Janet Hunt,26,Texas,141
+107,2021-04-02,638,Beauty Selfie Camera,BEAUTY,4.2,2225,52000000.0,500000,Free,0.0,Everyone,Beauty,2018-02-28,1.6,4.1 and up,2014,Christopher Sanchez,36,Alaska,177
+108,2021-04-02,618,PakWheels: Buy & Sell Cars,AUTO_AND_VEHICLES,4.4,15168,37000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-27,10.0.2,4.2 and up,7374,Maria Costa,63,Pennsylvania,309
+109,2021-04-02,988,Supervision service,AUTO_AND_VEHICLES,4.0,2155,15000000.0,500000,Free,0.0,Everyone,Auto & Vehicles,2018-07-30,1.10.3,5.0 and up,8636,Jean Kemp,25,Florida,275
+110,2021-04-02,949,Speed Camera Detector - Traffic & Speed Alert,AUTO_AND_VEHICLES,4.3,138,5400000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-23,1.0,4.0.3 and up,8466,Sarah Anderson,29,Florida,221
+111,2021-04-02,161,Used car search Goo net whole car Go to net,AUTO_AND_VEHICLES,3.7,5414,18000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-23,3.20.1,4.4 and up,9259,Albert Mason,41,Oklahoma,342
+112,2021-04-02,902,CarMax – Cars for Sale: Search Used Car Inventory,AUTO_AND_VEHICLES,4.4,21777,0.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-08-04,Varies with device,Varies with device,2891,David Esparza,42,Minnesota,377
+113,2021-04-02,64,RST - Sale of cars on the PCT,AUTO_AND_VEHICLES,3.2,250,1100000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-04-27,1.4,4.0.3 and up,7807,William Stewart,25,New York,158
+114,2021-04-02,224,AutoScout24 Switzerland – Find your new car,AUTO_AND_VEHICLES,4.6,13372,0.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-08-03,Varies with device,Varies with device,1369,Grant Rodriguez,61,Utah,115
+115,2021-04-02,94,Zona Azul Digital Fácil SP CET - OFFICIAL São Paulo,AUTO_AND_VEHICLES,4.6,7880,0.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-05-10,4.6.5,Varies with device,9800,Alison Cole,20,Massachusetts,153
+116,2021-04-02,308,SMS Park,AUTO_AND_VEHICLES,4.5,3617,7900000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-05-16,2.8.2,4.1 and up,8096,Whitney Vincent,60,Indiana,310
+117,2021-04-02,380,BEST CAR SOUNDS,AUTO_AND_VEHICLES,4.3,348,38000000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-07-29,1.0.3,2.3 and up,1517,Aaron Garcia,50,Michigan,159
+118,2021-04-02,867,Fuelio: Gas log & costs,AUTO_AND_VEHICLES,4.6,65786,0.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-08-02,Varies with device,4.0.3 and up,5196,Robert Ward,47,Mississippi,286
+119,2021-04-02,331,SKencar,AUTO_AND_VEHICLES,3.7,4806,35000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-31,4.0.3,4.0.3 and up,8091,Samuel Aguilar,28,Vermont,212
+120,2021-04-02,123,Natural recipes for your beauty,BEAUTY,4.7,1150,9800000.0,100000,Free,0.0,Everyone,Beauty,2018-05-15,4.0,4.1 and up,7034,Teresa Rose,49,Texas,192
+121,2021-04-02,494,"ipsy: Makeup, Beauty, and Tips",BEAUTY,4.9,49790,14000000.0,1000000,Free,0.0,Everyone,Beauty,2017-11-09,2.3.0,4.1 and up,10009,Kevin Holder,31,Georgia,260
+122,2021-04-02,606,Hush - Beauty for Everyone,BEAUTY,4.7,18900,17000000.0,500000,Free,0.0,Everyone,Beauty,2018-08-02,6.10.1,5.0 and up,5789,Kimberly Butler,62,Louisiana,199
+123,2021-04-02,11,Gas Station,AUTO_AND_VEHICLES,4.0,1288,4500000.0,100000,Free,0.0,Everyone,Auto & Vehicles,2018-04-21,2.17,4.0 and up,5312,Kenneth Hays,61,Vermont,289
+124,2021-04-02,257,"BestCam Selfie-selfie, beauty camera, photo editor",BEAUTY,3.9,1739,21000000.0,500000,Free,0.0,Everyone,Beauty,2018-07-12,1.0.6,4.0.3 and up,2062,John Sanchez,38,South Carolina,394
+125,2021-04-02,16,All of the parking lot - National Park application (parking lot search / parking sharing / discount payment),AUTO_AND_VEHICLES,4.0,1754,14000000.0,500000,Free,0.0,Everyone,Auto & Vehicles,2018-06-02,2.3.4,4.0 and up,1163,Gregory Chan,58,Texas,344
+126,2021-04-02,845,"Used car is the first car - used car purchase, used car quotation, dealer information to",AUTO_AND_VEHICLES,4.6,5097,19000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-07-23,1.5.18,4.0.3 and up,9258,John Benson MD,47,Rhode Island,333
+127,2021-04-02,273,auto fines,AUTO_AND_VEHICLES,4.6,31433,17000000.0,1000000,Free,0.0,Everyone,Auto & Vehicles,2018-08-02,1.40,4.0.3 and up,9835,Kyle Mays,26,New Jersey,392
+128,2021-04-02,612,Inquiry Fines and Debits of Vehicles,AUTO_AND_VEHICLES,4.4,2680,2200000.0,500000,Free,0.0,Everyone,Auto & Vehicles,2018-03-20,1.03,4.0.3 and up,5886,Michael Moon,46,Missouri,276
+129,2021-04-03,978,Anonymous caller detection,BOOKS_AND_REFERENCE,4.3,161,2700000.0,10000,Free,0.0,Everyone,Books & Reference,2018-07-13,1.0,2.3 and up,1257,Robert Nunez,37,Illinois,340
+130,2021-04-03,485,Oxford Dictionary of English : Free,BOOKS_AND_REFERENCE,4.1,363934,7100000.0,10000000,Free,0.0,Everyone,Books & Reference,2018-07-11,9.1.363,4.1 and up,7300,Randy Durham,62,Wisconsin,306
+131,2021-04-03,243,Offline: English to Tagalog Dictionary,BOOKS_AND_REFERENCE,4.7,967,6700000.0,500000,Free,0.0,Everyone,Books & Reference,2018-08-04,1.1.6,4.0.3 and up,7212,Alexandra Wheeler,54,Georgia,149
+132,2021-04-03,218,Spanish English Translator,BOOKS_AND_REFERENCE,4.2,87873,0.0,10000000,Free,0.0,Teen,Books & Reference,2018-05-28,Varies with device,Varies with device,8457,David Oconnell,64,Rhode Island,207
+133,2021-04-03,759,FamilySearch Tree,BOOKS_AND_REFERENCE,4.3,17506,17000000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-07-20,2.3.18,4.1 and up,4858,Lisa Lewis PhD,21,Mississippi,224
+134,2021-04-03,219,Cloud of Books,BOOKS_AND_REFERENCE,3.3,1862,19000000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-04-27,2.2.5,4.1 and up,3086,Katie Wood,62,Louisiana,248
+135,2021-04-03,674,Recipes of Prophetic Medicine for free,BOOKS_AND_REFERENCE,4.6,2084,6700000.0,500000,Free,0.0,Everyone,Books & Reference,2018-05-17,15.0,2.3 and up,7890,Brandon Williams,32,California,398
+136,2021-04-03,288,ReadEra – free ebook reader,BOOKS_AND_REFERENCE,4.8,47303,21000000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-06-02,18.05.31+530,4.1 and up,7860,John Noble Jr.,51,New Mexico,170
+137,2021-04-03,479,NOOK App for NOOK Devices,BOOKS_AND_REFERENCE,4.7,19080,0.0,500000,Free,0.0,Everyone,Books & Reference,2018-04-25,Varies with device,Varies with device,7010,Henry Tucker,63,Utah,200
+138,2021-04-03,798,Ebook Reader,BOOKS_AND_REFERENCE,4.1,85842,37000000.0,5000000,Free,0.0,Everyone,Books & Reference,2018-06-25,5.0.6,4.0 and up,4381,Jasmine Roberts,46,New Jersey,111
+139,2021-04-03,140,Offline English Dictionary,BOOKS_AND_REFERENCE,4.2,860,13000000.0,100000,Free,0.0,Everyone,Books & Reference,2018-07-17,1.0,4.0.3 and up,7209,Kevin Rodgers,52,South Dakota,222
+140,2021-04-03,581,Read books online,BOOKS_AND_REFERENCE,4.1,91615,23000000.0,5000000,Free,0.0,Mature 17+,Books & Reference,2018-06-29,3.12,4.1 and up,7857,Deborah Hunter,20,Colorado,294
+141,2021-04-03,974,English to Urdu Dictionary,BOOKS_AND_REFERENCE,4.6,4620,19000000.0,500000,Free,0.0,Everyone,Books & Reference,2017-11-23,2.0,4.0.3 and up,4486,Michael Vang,20,Colorado,227
+142,2021-04-03,462,eBoox: book reader fb2 epub zip,BOOKS_AND_REFERENCE,4.7,21336,23000000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-06-20,1.28,3.0 and up,9923,Matthew Cooper,59,Alaska,277
+143,2021-04-03,787,English Persian Dictionary,BOOKS_AND_REFERENCE,4.5,26875,73000000.0,500000,Free,0.0,Everyone,Books & Reference,2018-08-01,6.0.8,4.0.3 and up,4479,Danielle George,19,Texas,310
+144,2021-04-03,976,Flybook,BOOKS_AND_REFERENCE,3.9,1778,4900000.0,500000,Free,0.0,Mature 17+,Books & Reference,2014-10-16,1.0.3,2.1 and up,5059,Brandi Medina,53,Tennessee,340
+145,2021-04-03,214,All Maths Formulas,BOOKS_AND_REFERENCE,4.4,2709,6800000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-07-11,1.9,4.4 and up,1153,Nicholas Brown,55,Montana,256
+146,2021-04-03,973,HTC Help,BOOKS_AND_REFERENCE,4.2,8342,0.0,10000000,Free,0.0,Everyone,Books & Reference,2017-08-28,9.00.950462,7.0 and up,5577,Katie Fisher,33,Georgia,315
+147,2021-04-03,928,English translation from Bengali,BOOKS_AND_REFERENCE,4.5,527,2900000.0,100000,Free,0.0,Everyone,Books & Reference,2018-03-31,14.0,4.0 and up,4487,David Morgan,28,Florida,365
+148,2021-04-03,679,Pdf Book Download - Read Pdf Book,BOOKS_AND_REFERENCE,4.4,1322,3500000.0,100000,Free,0.0,Everyone,Books & Reference,2018-05-28,6.0,4.0.3 and up,7404,Jamie Baldwin,58,Arizona,253
+149,2021-04-03,98,Free Book Reader,BOOKS_AND_REFERENCE,3.4,1680,4000000.0,100000,Free,0.0,Everyone,Books & Reference,2016-08-20,3.05,4.0.3 and up,5115,Christopher Chavez,41,Nevada,383
+150,2021-04-03,827,Litnet - E-books,BOOKS_AND_REFERENCE,4.6,7831,15000000.0,100000,Free,0.0,Teen,Books & Reference,2018-07-04,1.2.3,4.0 and up,6333,Alyssa Martinez,36,New Jersey,104
+151,2021-04-03,916,AlReader -any text book reader,BOOKS_AND_REFERENCE,4.6,90468,5900000.0,5000000,Free,0.0,Everyone,Books & Reference,2018-05-27,1.911805270,2.3 and up,1118,Brooke Fuentes,53,Vermont,91
+152,2021-04-03,844,Ancestry,BOOKS_AND_REFERENCE,4.3,64513,0.0,5000000,Free,0.0,Everyone,Books & Reference,2018-07-31,Varies with device,Varies with device,1211,Valerie Brady,57,Utah,382
+153,2021-04-03,271,Free Books - Spirit Fanfiction and Stories,BOOKS_AND_REFERENCE,4.8,116507,5000000.0,1000000,Free,0.0,Teen,Books & Reference,2018-08-01,2.0.075,4.0.3 and up,5116,Dakota White,54,Wyoming,248
+154,2021-04-03,786,"Secrets of beauty, youth and health",BEAUTY,4.3,77,2900000.0,10000,Free,0.0,Mature 17+,Beauty,2017-08-08,2.0,2.3 and up,8217,Susan Spencer,63,Vermont,334
+155,2021-04-03,533,Recipes and tips for losing weight,BEAUTY,4.3,35,3100000.0,10000,Free,0.0,Everyone 10+,Beauty,2017-12-11,2.0,3.0 and up,7888,Garrett Edwards,23,Florida,182
+156,2021-04-03,271,Discover Color,BEAUTY,4.0,364,6400000.0,100000,Free,0.0,Everyone,Beauty,2018-05-24,1.1,4.0.3 and up,3795,Dakota White,54,Wyoming,364
+157,2021-04-03,882,Eyeliner step by step 2018,BEAUTY,4.3,18,3200000.0,5000,Free,0.0,Everyone,Beauty,2018-06-01,1.2.13,4.0.3 and up,4581,Antonio Landry,58,Missouri,370
+158,2021-04-03,260,Dresses Ideas & Fashions +3000,BEAUTY,4.5,473,8200000.0,100000,Free,0.0,Mature 17+,Beauty,2017-03-01,1.0.2.0,1.6 and up,3965,Kristin Lee,47,Massachusetts,223
+159,2021-04-03,149,"Lady adviser (beauty, health)",BEAUTY,4.3,30,9900000.0,10000,Free,0.0,Mature 17+,Beauty,2018-01-24,3.0,3.0 and up,6190,Christina James,19,Indiana,392
+160,2021-04-03,538,Step By Step Hairstyles For Women,BEAUTY,4.1,66,2900000.0,10000,Free,0.0,Everyone,Beauty,2018-04-05,3.1.89,4.0.3 and up,8531,Joshua Webster,43,South Carolina,112
+161,2021-04-03,306,Rainbow Camera,BEAUTY,3.7,3871,23000000.0,1000000,Free,0.0,Everyone,Beauty,2018-07-30,2.2.0,4.0 and up,7839,Morgan Rowland,27,New Mexico,114
+162,2021-04-03,600,Methods of teeth whitening,BEAUTY,4.7,257,4600000.0,50000,Free,0.0,Everyone,Beauty,2017-08-07,1.0,4.0.3 and up,6671,Christopher Smith,58,Indiana,106
+163,2021-04-03,371,Girls hairstyles 2018,BEAUTY,4.2,62,3100000.0,10000,Free,0.0,Everyone,Beauty,2018-05-28,1.9.2,4.0.3 and up,5355,Scott Matthews,27,Kentucky,242
+164,2021-04-03,500,Wattpad 📖 Free Books,BOOKS_AND_REFERENCE,4.6,2914724,0.0,100000000,Free,0.0,Teen,Books & Reference,2018-08-01,Varies with device,Varies with device,9475,Erika Brown,40,Louisiana,175
+165,2021-04-03,967,Google Play Books,BOOKS_AND_REFERENCE,3.9,1433233,0.0,1000000000,Free,0.0,Teen,Books & Reference,2018-08-03,Varies with device,Varies with device,5438,Sharon Mathis,43,Maryland,117
+166,2021-04-03,494,Download free book with green book,BOOKS_AND_REFERENCE,4.6,4478,9500000.0,100000,Free,0.0,Everyone 10+,Books & Reference,2017-07-31,1.1,4.0 and up,3871,Kevin Holder,31,Georgia,153
+167,2021-04-03,171,E-Book Read - Read Book for free,BOOKS_AND_REFERENCE,4.5,1857,4900000.0,50000,Free,0.0,Everyone,Books & Reference,2018-08-03,1.3.2,4.4 and up,4017,Lisa Lam,18,Vermont,263
+168,2021-04-03,695,FBReader: Favorite Book Reader,BOOKS_AND_REFERENCE,4.5,203130,0.0,10000000,Free,0.0,Everyone,Books & Reference,2018-06-28,Varies with device,Varies with device,4621,Nancy Kelly,19,Massachusetts,201
+169,2021-04-03,620,Book store,BOOKS_AND_REFERENCE,4.4,22486,5400000.0,1000000,Free,0.0,Teen,Books & Reference,2018-06-06,3.2.1,4.0 and up,2229,Travis Lowe,48,Arizona,98
+170,2021-04-03,984,Free Panda Radio Music,BOOKS_AND_REFERENCE,4.5,418,4200000.0,100000,Free,0.0,Everyone,Books & Reference,2018-03-27,2.1,4.1 and up,5137,Bradley Howell,52,Louisiana,311
+171,2021-04-03,542,English Grammar Complete Handbook,BOOKS_AND_REFERENCE,4.6,1435,2800000.0,500000,Free,0.0,Everyone,Books & Reference,2018-01-21,1.0,4.0 and up,4476,Lisa Werner,62,Rhode Island,150
+172,2021-04-03,348,Dictionary - Merriam-Webster,BOOKS_AND_REFERENCE,4.5,454060,0.0,10000000,Free,0.0,Everyone,Books & Reference,2018-05-18,Varies with device,Varies with device,3760,Michael Smith,26,Iowa,164
+173,2021-04-03,674,Cool Reader,BOOKS_AND_REFERENCE,4.5,246315,0.0,10000000,Free,0.0,Everyone,Books & Reference,2015-07-17,Varies with device,1.5 and up,3186,Brandon Williams,32,California,182
+174,2021-04-03,175,Amazon Kindle,BOOKS_AND_REFERENCE,4.2,814080,0.0,100000000,Free,0.0,Teen,Books & Reference,2018-07-27,Varies with device,Varies with device,1185,Diana Olson,51,Nebraska,396
+175,2021-04-03,45,Wikipedia,BOOKS_AND_REFERENCE,4.4,577550,0.0,10000000,Free,0.0,Everyone,Books & Reference,2018-08-02,Varies with device,Varies with device,9596,Mitchell Brooks,64,Pennsylvania,317
+176,2021-04-03,893,NOOK: Read eBooks & Magazines,BOOKS_AND_REFERENCE,4.5,155446,0.0,10000000,Free,0.0,Teen,Books & Reference,2018-04-25,Varies with device,Varies with device,7012,Aaron Murphy,60,Oklahoma,223
+177,2021-04-04,40,My Space - Employment Center,BUSINESS,4.5,67000,0.0,1000000,Free,0.0,Everyone,Business,2018-07-17,Varies with device,4.3 and up,6928,David Lowe,48,Wyoming,252
+178,2021-04-04,697,Become a Job - Find a job or advertise,BUSINESS,4.1,6903,14000000.0,1000000,Free,0.0,Everyone,Business,2018-07-10,2.3.6,4.1 and up,2019,Natalie Dean,45,South Carolina,193
+179,2021-04-04,682,Box,BUSINESS,4.2,159872,0.0,10000000,Free,0.0,Everyone,Business,2018-07-31,Varies with device,Varies with device,2245,Misty Smith,18,Mississippi,118
+180,2021-04-04,699,Polaris Office for LG,BUSINESS,4.2,30847,55000000.0,5000000,Free,0.0,Everyone,Business,2018-02-08,7.3.21,4.1 and up,7586,Douglas Watson,32,Texas,342
+181,2021-04-04,635,Call Blocker,BUSINESS,4.6,188841,3200000.0,5000000,Free,0.0,Everyone,Business,2018-06-21,1.1.13,4.0 and up,2813,Ryan Miller,43,Ohio,195
+182,2021-04-04,380,Square Point of Sale - POS,BUSINESS,4.6,95912,0.0,5000000,Free,0.0,Everyone,Business,2018-07-30,Varies with device,Varies with device,8502,Aaron Garcia,50,Michigan,295
+183,2021-04-04,804,Plugin:AOT v5.0,BUSINESS,3.1,4034,23000.0,100000,Free,0.0,Everyone,Business,2015-09-11,3.0.1.11 (Build 311),2.2 and up,7558,Beverly Hill,63,Missouri,169
+184,2021-04-04,403,Kariyer.net,BUSINESS,3.9,45964,16000000.0,1000000,Free,0.0,Everyone,Business,2018-07-18,5.1.5,4.1 and up,6047,Jeffrey Acevedo,24,Kansas,398
+185,2021-04-04,53,SEEK Job Search,BUSINESS,4.3,14955,0.0,1000000,Free,0.0,Everyone,Business,2018-07-30,Varies with device,Varies with device,8079,Leroy Campbell,59,South Carolina,267
+186,2021-04-04,680,ZOOM Cloud Meetings,BUSINESS,4.4,31614,37000000.0,10000000,Free,0.0,Everyone,Business,2018-07-20,4.1.28165.0716,4.0 and up,9757,John Velez,38,Mississippi,253
+187,2021-04-04,21,MyASUS - Service Center,BUSINESS,4.4,380837,7300000.0,10000000,Free,0.0,Everyone,Business,2018-07-04,3.4.5,4.2 and up,6951,Andrew Barnes,31,Iowa,298
+188,2021-04-04,324,Facebook Ads Manager,BUSINESS,4.1,19023,0.0,1000000,Free,0.0,Everyone,Business,2018-08-01,99.0.0.35.75,4.1 and up,4829,Christopher Pacheco,59,Washington,358
+189,2021-04-04,767,"IndiaMART: Search Products, Buy, Sell & Trade",BUSINESS,4.5,207372,11000000.0,5000000,Free,0.0,Everyone,Business,2018-08-02,12.2.4,4.0 and up,5875,Taylor Williams,35,Alabama,270
+190,2021-04-04,444,ViettelPost express delivery,BUSINESS,4.4,1225,25000000.0,100000,Free,0.0,Everyone,Business,2018-08-01,1.0.6.8,4.1 and up,9344,Anthony Garcia,37,Nevada,312
+191,2021-04-04,336,OfficeSuite Pro + PDF (Trial),BUSINESS,4.2,88073,0.0,10000000,Free,0.0,Everyone,Business,2018-07-09,Varies with device,Varies with device,7201,Wanda Michael,36,Nebraska,147
+192,2021-04-04,517,Job Korea - Career Jobs,BUSINESS,4.3,10600,6500000.0,1000000,Free,0.0,Everyone,Business,2018-08-01,2.5.6,4.0 and up,5987,Diane Krueger,50,South Carolina,193
+193,2021-04-04,857,"104 Looking for a job - looking for a job, looking for a job, looking for a part-time job, health checkup, resume, treatment room",BUSINESS,4.4,74359,25000000.0,1000000,Free,0.0,Everyone,Business,2018-07-27,1.12.5,4.0 and up,515,Jessica Hawkins,22,Montana,113
+194,2021-04-04,364,Myanmar 2D/3D,BUSINESS,4.6,822,3100000.0,100000,Free,0.0,Everyone,Business,2018-06-08,1.5,4.0.3 and up,6964,Stephanie Bailey,31,California,337
+195,2021-04-04,109,Quick PDF Scanner + OCR FREE,BUSINESS,4.2,80805,0.0,5000000,Free,0.0,Everyone,Business,2018-02-26,Varies with device,4.0.3 and up,7744,Michael Sullivan,37,Louisiana,147
+196,2021-04-04,925,sABN,BUSINESS,4.4,2287,1500000.0,1000000,Free,0.0,Everyone,Business,2018-03-26,4.9,2.2 and up,10079,Vincent Watkins,34,Nebraska,268
+197,2021-04-04,724,ATI Cargoes and Transportation,BUSINESS,4.7,4162,7500000.0,100000,Free,0.0,Everyone,Business,2018-07-24,0.9.4,4.0.3 and up,896,Mrs. Sara Martinez,48,Idaho,361
+198,2021-04-04,4,Easy Installer - Apps On SD,BUSINESS,4.1,23055,0.0,5000000,Free,0.0,Everyone,Business,2018-06-08,Varies with device,Varies with device,4357,Matthew Lloyd,55,Oregon,204
+199,2021-04-04,336,Facebook Pages Manager,BUSINESS,4.0,1279184,0.0,50000000,Free,0.0,Everyone,Business,2018-08-02,Varies with device,Varies with device,4834,Wanda Michael,36,Nebraska,388
+200,2021-04-04,86,Jobs in Alabama - Jobs in Alba,BUSINESS,4.1,11622,0.0,5000000,Free,0.0,Everyone,Business,2018-07-26,Varies with device,Varies with device,5990,Brandon Heath,32,Oklahoma,155
+201,2021-04-04,932,Alba Heaven - Alvarez Job Portal Services,BUSINESS,4.0,8941,12000000.0,5000000,Free,0.0,Everyone,Business,2018-07-31,4.6.30,4.0.3 and up,1130,Elizabeth Kelley,64,Wyoming,164
+202,2021-04-04,568,eBoox new: Reader for fb2 epub zip books,BOOKS_AND_REFERENCE,4.9,2739,21000000.0,50000,Free,0.0,Everyone,Books & Reference,2018-07-17,2.0,3.0 and up,9922,Kimberly Adams,40,Texas,241
+203,2021-04-04,597,"Only 30 days in English, the guideline is guaranteed",BOOKS_AND_REFERENCE,4.6,1065,2300000.0,500000,Free,0.0,Everyone,Books & Reference,2018-06-16,1.5,3.0 and up,7255,Jonathan Johnson,61,New York,327
+204,2021-04-04,974,Moon+ Reader,BOOKS_AND_REFERENCE,4.4,233757,0.0,10000000,Free,0.0,Everyone,Books & Reference,2018-05-01,Varies with device,Varies with device,6803,Michael Vang,20,Colorado,177
+205,2021-04-04,512,SH-02J Owner's Manual (Android 8.0),BOOKS_AND_REFERENCE,4.3,2,7200000.0,50000,Free,0.0,Everyone,Books & Reference,2018-06-15,3.0,6.0 and up,8081,Michele Jones,48,Vermont,267
+206,2021-04-04,737,English-Myanmar Dictionary,BOOKS_AND_REFERENCE,4.4,8788,10000000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-07-28,2.5.3,4.0 and up,4490,Frederick Johnson,26,Idaho,158
+207,2021-04-04,505,Golden Dictionary (EN-AR),BOOKS_AND_REFERENCE,4.4,51269,6100000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-07-19,7.0.4.6,4.2 and up,5391,Anne Scott,22,Nebraska,382
+208,2021-04-04,31,All Language Translator Free,BOOKS_AND_REFERENCE,4.4,30105,2100000.0,1000000,Free,0.0,Everyone,Books & Reference,2018-07-29,1.15,4.0.3 and up,1152,Eric Jordan,19,Massachusetts,185
+209,2021-04-04,239,Azpen eReader,BOOKS_AND_REFERENCE,3.5,156,42000000.0,500000,Free,0.0,Everyone,Books & Reference,2018-02-15,3.1.7.9,2.2 and up,1420,Sean Smith,33,New Jersey,120
+210,2021-04-04,378,URBANO V 02 instruction manual,BOOKS_AND_REFERENCE,4.3,114,7300000.0,100000,Free,0.0,Everyone,Books & Reference,2015-08-07,1.1,5.1 and up,9182,Jennifer Smith,54,West Virginia,322
+211,2021-04-04,114,English Dictionary - Offline,BOOKS_AND_REFERENCE,4.4,341157,30000000.0,10000000,Free,0.0,Everyone 10+,Books & Reference,2018-03-20,3.9.1,4.2 and up,4475,Amber Henderson MD,37,Vermont,335
+212,2021-04-04,504,Visual Voicemail by MetroPCS,BUSINESS,4.1,16129,0.0,10000000,Free,0.0,Everyone,Business,2018-07-30,Varies with device,Varies with device,9373,Dennis Elliott,30,Oklahoma,195
+213,2021-04-04,173,SuperLivePro,BUSINESS,4.3,46353,21000000.0,1000000,Free,0.0,Everyone,Business,2016-04-13,2.8,1.5 and up,8625,Robert Garcia,44,Nevada,316
+214,2021-04-04,993,Uber Driver,BUSINESS,4.4,1254730,0.0,10000000,Free,0.0,Everyone,Business,2018-08-03,Varies with device,Varies with device,9200,Dale Kent,18,Massachusetts,358
+215,2021-04-04,47,ADP Mobile Solutions,BUSINESS,4.3,85185,29000000.0,5000000,Free,0.0,Everyone,Business,2018-07-17,3.4.2,5.0 and up,681,Jessica Estrada,32,Vermont,358
+216,2021-04-04,784,Snag - Jobs Hiring Now,BUSINESS,4.3,32584,0.0,1000000,Free,0.0,Everyone,Business,2018-05-04,Varies with device,Varies with device,8384,Daniel Bird,54,North Carolina,185
+217,2021-04-04,937,Docs To Go™ Free Office Suite,BUSINESS,4.1,217730,0.0,50000000,Free,0.0,Everyone,Business,2018-04-02,Varies with device,Varies with device,3821,Erin Montoya,35,Vermont,270
+218,2021-04-04,475,Google My Business,BUSINESS,4.4,70991,0.0,5000000,Free,0.0,Everyone,Business,2018-07-24,2.19.0.204537701,4.4 and up,5432,Damon Daniels,34,Louisiana,94
+219,2021-04-04,384,OfficeSuite : Free Office + PDF Editor,BUSINESS,4.3,1002861,35000000.0,100000000,Free,0.0,Everyone,Business,2018-08-02,9.7.14188,4.1 and up,7200,Sara Smith,44,Pennsylvania,164
+220,2021-04-04,710,USPS MOBILE®,BUSINESS,3.9,16589,9100000.0,1000000,Free,0.0,Everyone,Business,2018-06-14,4.9.10,4.0.3 and up,9198,Brandon Davis,58,Wyoming,265
+221,2021-04-04,869,Job Search by ZipRecruiter,BUSINESS,4.8,148945,25000000.0,1000000,Free,0.0,Everyone,Business,2018-07-19,5.2.8,5.0 and up,5988,Megan Phillips,49,Oklahoma,104
+222,2021-04-04,479,Curriculum vitae App CV Builder Free Resume Maker,BUSINESS,4.5,4458,3900000.0,500000,Free,0.0,Everyone,Business,2018-07-08,3.3,4.1 and up,3266,Henry Tucker,63,Utah,268
+223,2021-04-04,145,Google Primer,BUSINESS,4.4,62272,18000000.0,10000000,Free,0.0,Everyone,Business,2018-06-26,3.550.2,4.1 and up,5441,Kathryn Bailey,33,Georgia,152
+224,2021-04-04,148,Indeed Job Search,BUSINESS,4.3,674730,0.0,50000000,Free,0.0,Everyone,Business,2018-05-21,Varies with device,Varies with device,5873,Chelsey Clark,39,Georgia,285
+225,2021-04-05,425,Cisco Webex Teams,BUSINESS,4.2,1661,46000000.0,100000,Free,0.0,Everyone,Business,2018-08-02,3.0.4651,4.4 and up,3042,Sheila Sherman,51,Oregon,101
+226,2021-04-05,473,ScreenMeet. Easy Phone Meeting,BUSINESS,4.0,624,9000000.0,100000,Free,0.0,Everyone,Business,2018-03-22,1.2.287,5.0 and up,8210,Mark Hill,45,Massachusetts,239
+227,2021-04-05,300,ZOOM Cloud Meetings,BUSINESS,4.4,31614,37000000.0,10000000,Free,0.0,Everyone,Business,2018-07-20,4.1.28165.0716,4.0 and up,9757,Tara Chandler,28,Wisconsin,335
+228,2021-04-05,710,Cisco Webex Meetings,BUSINESS,4.4,108741,28000000.0,10000000,Free,0.0,Everyone,Business,2018-07-20,11.1.0,4.3 and up,3041,Brandon Davis,58,Wyoming,224
+229,2021-04-05,299,AdWords Express,BUSINESS,4.1,7149,11000000.0,1000000,Free,0.0,Everyone,Business,2018-07-31,2.6.158,4.0 and up,998,Michael Hughes,32,North Dakota,151
+230,2021-04-05,186,join.me - Simple Meetings,BUSINESS,4.0,6989,0.0,1000000,Free,0.0,Everyone,Business,2018-07-16,4.3.0.508,4.4 and up,10013,Samantha Vazquez,44,North Carolina,164
+231,2021-04-05,591,Invoice & Time Tracking - Zoho,BUSINESS,4.6,5800,8600000.0,100000,Free,0.0,Everyone,Business,2018-08-02,5.20.7,4.1 and up,5918,Alexis Smith,36,New Jersey,274
+232,2021-04-05,167,Accounting App - Zoho Books,BUSINESS,4.5,3079,8500000.0,100000,Free,0.0,Everyone,Business,2018-08-02,5.20.7,4.1 and up,979,Thomas Terry,35,Pennsylvania,223
+233,2021-04-05,622,Microsoft Remote Desktop,BUSINESS,4.2,97702,0.0,5000000,Free,0.0,Everyone,Business,2018-07-11,Varies with device,Varies with device,6693,Christopher Smith,37,Utah,347
+234,2021-04-05,652,Invoice 2go — Professional Invoices and Estimates,BUSINESS,4.2,16422,28000000.0,1000000,Free,0.0,Everyone,Business,2018-08-01,10.46.2,4.1 and up,5919,David Bruce,48,Utah,372
+235,2021-04-05,515,Start Meeting,BUSINESS,4.1,308,14000000.0,50000,Free,0.0,Everyone,Business,2018-05-29,3.1.4.0,4.0.3 and up,8521,Jean Hall,18,New Jersey,149
+236,2021-04-05,643,Box,BUSINESS,4.2,159872,0.0,10000000,Free,0.0,Everyone,Business,2018-07-31,Varies with device,Varies with device,2245,Mary Martinez,53,Nevada,271
+237,2021-04-05,959,ClickMeeting Webinars,BUSINESS,3.8,5211,26000000.0,1000000,Free,0.0,Everyone,Business,2018-07-30,3.3.0,4.0 and up,3079,Ryan Lewis,29,Kansas,292
+238,2021-04-05,517,BlueJeans for Android,BUSINESS,3.9,1058,23000000.0,500000,Free,0.0,Everyone,Business,2018-06-29,2.22.397,5.0 and up,2200,Diane Krueger,50,South Carolina,286
+239,2021-04-05,654,Skype for Business for Android,BUSINESS,3.9,78172,0.0,10000000,Free,0.0,Everyone,Business,2018-08-02,Varies with device,Varies with device,8346,Robert Anderson,56,Arizona,173
+240,2021-04-05,13,Zenefits,BUSINESS,4.2,296,14000000.0,50000,Free,0.0,Everyone,Business,2018-06-15,3.2.1,4.1 and up,9776,Karen Hudson,23,Connecticut,338
+241,2021-04-05,202,Google Ads,BUSINESS,4.3,29313,20000000.0,5000000,Free,0.0,Everyone,Business,2018-07-30,1.12.0,4.0.3 and up,5414,Diana Lopez,42,Massachusetts,362
+242,2021-04-05,272,Google My Business,BUSINESS,4.4,70991,0.0,5000000,Free,0.0,Everyone,Business,2018-07-24,2.19.0.204537701,4.4 and up,5432,David Ayers,31,Maine,136
+243,2021-04-05,36,Slack,BUSINESS,4.4,51507,0.0,5000000,Free,0.0,Everyone,Business,2018-08-02,Varies with device,Varies with device,8349,Mark Ortiz,47,Rhode Island,235
+244,2021-04-05,122,FreshBooks Classic,BUSINESS,4.1,1802,26000000.0,100000,Free,0.0,Everyone,Business,2018-04-18,1.7.14,4.2 and up,5177,David White,44,Mississippi,311
+245,2021-04-05,703,Insightly CRM,BUSINESS,3.8,1383,51000000.0,100000,Free,0.0,Everyone,Business,2018-07-12,3.24.1,5.0 and up,5890,Anthony Bowman,41,Vermont,287
+246,2021-04-05,810,Google Analytics,BUSINESS,4.5,78662,22000000.0,1000000,Free,0.0,Everyone,Business,2018-02-13,3.7.5,4.4 and up,5416,Jeff Perez,25,Missouri,147
+247,2021-04-05,205,join.me - Simple Meetings,BUSINESS,4.0,6989,0.0,1000000,Free,0.0,Everyone,Business,2018-07-16,4.3.0.508,4.4 and up,10013,Jeffrey Serrano,61,Montana,152
+248,2021-04-05,697,QuickBooks Accounting: Invoicing & Expenses,BUSINESS,4.3,23175,41000000.0,1000000,Free,0.0,Everyone,Business,2018-07-13,18.7,4.1 and up,7745,Natalie Dean,45,South Carolina,283
+249,2021-04-05,107,Asana: organize team projects,BUSINESS,4.3,20815,10000000.0,1000000,Free,0.0,Everyone,Business,2018-07-26,6.4.4,5.0 and up,1328,Robert Gomez,39,Pennsylvania,394
+250,2021-04-05,151,"MailChimp - Email, Marketing Automation",BUSINESS,4.1,5448,12000000.0,500000,Free,0.0,Everyone,Business,2018-07-25,4.9.1,5.0 and up,6510,Brandon Miller,51,Oklahoma,157
+251,2021-04-05,118,Secure Folder,BUSINESS,3.8,14760,8600000.0,50000000,Free,0.0,Everyone,Business,2018-01-31,1.1.07.6,7.0 and up,8218,Nicholas Waters,43,Washington,351
+252,2021-04-05,550,UPS Mobile,BUSINESS,3.9,23243,0.0,5000000,Free,0.0,Everyone,Business,2018-06-25,Varies with device,Varies with device,9181,Justin Garza,19,Kentucky,329
+253,2021-04-05,575,Y! Mobile menu,BUSINESS,4.3,9,1200000.0,100000,Free,0.0,Everyone,Business,2018-04-09,1.0.5,6.0 and up,9686,Jason Butler,50,Alaska,98
+254,2021-04-05,761,SignEasy | Sign and Fill PDF and other Documents,BUSINESS,4.3,8978,0.0,1000000,Free,0.0,Everyone,Business,2018-07-25,Varies with device,Varies with device,8294,Timothy Francis,58,Arkansas,142
+255,2021-04-05,471,Quick PDF Scanner + OCR FREE,BUSINESS,4.2,80805,0.0,5000000,Free,0.0,Everyone,Business,2018-02-26,Varies with device,4.0.3 and up,7744,George Gibson,20,New Jersey,140
+256,2021-04-05,675,Genius Scan - PDF Scanner,BUSINESS,4.4,42492,0.0,1000000,Free,0.0,Everyone,Business,2018-07-11,Varies with device,Varies with device,5325,April Johnson,33,South Dakota,296
+257,2021-04-05,571,Tiny Scanner - PDF Scanner App,BUSINESS,4.7,286897,39000000.0,10000000,Free,0.0,Everyone,Business,2017-05-30,1.2.6,3.0 and up,8987,Elizabeth Harding,40,South Dakota,241
+258,2021-04-05,440,Fast Scanner : Free PDF Scan,BUSINESS,4.5,103755,14000000.0,10000000,Free,0.0,Everyone,Business,2018-07-11,3.9.2,4.1 and up,4891,Devin Huang,54,South Carolina,92
+259,2021-04-05,302,Mobile Doc Scanner (MDScan) Lite,BUSINESS,4.2,46505,19000000.0,1000000,Free,0.0,Everyone,Business,2018-08-02,3.4.49,4.1 and up,6745,Justin Powell,46,Illinois,230
+260,2021-04-05,310,TurboScan: scan documents and receipts in PDF,BUSINESS,4.7,11442,6800000.0,100000,Paid,4.99,Everyone,Business,2018-03-25,1.5.2,4.0 and up,9134,Dennis Collins,42,Montana,314
+261,2021-04-05,998,Crew - Free Messaging and Scheduling,BUSINESS,4.6,4159,48000000.0,500000,Free,0.0,Everyone,Business,2018-07-20,6.1.2,4.0.3 and up,3240,Jeffrey Dean,57,Delaware,148
+262,2021-04-05,497,Box,BUSINESS,4.2,159872,0.0,10000000,Free,0.0,Everyone,Business,2018-07-31,Varies with device,Varies with device,2245,Nathan King,25,North Dakota,307
+263,2021-04-05,439,Zenefits,BUSINESS,4.2,296,14000000.0,50000,Free,0.0,Everyone,Business,2018-06-15,3.2.1,4.1 and up,9776,Bonnie Moreno,58,Maryland,277
+264,2021-04-05,940,Google Ads,BUSINESS,4.3,29313,20000000.0,5000000,Free,0.0,Everyone,Business,2018-07-30,1.12.0,4.0.3 and up,5414,William Patterson,28,Missouri,206
+265,2021-04-05,364,Google My Business,BUSINESS,4.4,70991,0.0,5000000,Free,0.0,Everyone,Business,2018-07-24,2.19.0.204537701,4.4 and up,5432,Stephanie Bailey,31,California,112
+266,2021-04-05,699,Slack,BUSINESS,4.4,51507,0.0,5000000,Free,0.0,Everyone,Business,2018-08-02,Varies with device,Varies with device,8349,Douglas Watson,32,Texas,379
+267,2021-04-05,5,FreshBooks Classic,BUSINESS,4.1,1802,26000000.0,100000,Free,0.0,Everyone,Business,2018-04-18,1.7.14,4.2 and up,5177,Dillon Adams,61,Florida,280
+268,2021-04-05,698,Insightly CRM,BUSINESS,3.8,1383,51000000.0,100000,Free,0.0,Everyone,Business,2018-07-12,3.24.1,5.0 and up,5890,Shelia Gould,40,Alabama,218
+269,2021-04-05,22,QuickBooks Accounting: Invoicing & Expenses,BUSINESS,4.3,23175,41000000.0,1000000,Free,0.0,Everyone,Business,2018-07-13,18.7,4.1 and up,7745,Mrs. Kelly Smith,42,Illinois,308
+270,2021-04-05,918,HipChat - Chat Built for Teams,BUSINESS,3.8,5868,20000000.0,500000,Free,0.0,Everyone,Business,2018-07-03,3.19.005,4.1 and up,5692,Joan Cooper,39,Wyoming,273
+271,2021-04-05,756,Xero Accounting Software,BUSINESS,3.5,2111,0.0,100000,Free,0.0,Everyone,Business,2018-07-30,Varies with device,Varies with device,9681,Sarah Mcdonald,39,Pennsylvania,184
+272,2021-04-05,525,Tiny Scanner Pro: PDF Doc Scan,BUSINESS,4.8,10295,39000000.0,100000,Paid,4.99,Everyone,Business,2017-04-11,3.4.6,3.0 and up,8988,Curtis Martinez,46,New Jersey,145
+273,2021-04-06,798,The Vietnam Story - Fun Stories,COMICS,4.5,438,3400000.0,10000,Free,0.0,Everyone,Comics,2017-12-27,1.0,2.3 and up,8905,Jasmine Roberts,46,New Jersey,264
+274,2021-04-06,765,Manga - read Thai translation,COMICS,4.6,302,2200000.0,10000,Free,0.0,Teen,Comics,2018-07-03,1.0,4.0 and up,6526,Jeremy Gilbert,29,Colorado,194
+275,2021-04-06,946,Manga Rock - Best Manga Reader,COMICS,4.4,238970,28000000.0,1000000,Free,0.0,Teen,Comics,2018-07-09,3.4.3_world,5.0 and up,6532,Dr. Molly Roach,64,New York,183
+276,2021-04-06,399,GANMA! - All original stories free of charge for all original comics,COMICS,4.7,57106,27000000.0,1000000,Free,0.0,Teen,Comics,2018-07-23,2.11.3,4.1 and up,5240,Gary Howard,57,Alaska,280
+277,2021-04-06,530,MangaToon - Comics updated Daily,COMICS,3.9,834,15000000.0,50000,Free,0.0,Mature 17+,Comics,2018-08-01,1.0.8,4.1 and up,6535,Kimberly Harris,57,Louisiana,269
+278,2021-04-06,149,Unicorn Pokez - Color By Number,COMICS,4.8,516,12000000.0,50000,Free,0.0,Everyone,Comics;Creativity,2018-08-03,1.0.6,4.4 and up,9231,Christina James,19,Indiana,110
+279,2021-04-06,751,Röhrich Werner Soundboard,COMICS,4.7,2249,32000000.0,500000,Free,0.0,Everyone,Comics,2017-11-16,1.08,4.0.3 and up,8048,Bryan Moore,27,North Dakota,175
+280,2021-04-06,171,Dragon Ball Wallpaper - Ringtones,COMICS,4.7,73,8300000.0,10000,Free,0.0,Everyone,Comics,2018-07-23,1.9,4.0.3 and up,3939,Lisa Lam,18,Vermont,164
+281,2021-04-06,770,Manga Net – Best Online Manga Reader,COMICS,4.1,1010,11000000.0,50000,Free,0.0,Mature 17+,Comics,2018-07-07,1.5,4.1 and up,6531,Timothy Tate,34,New Hampshire,377
+282,2021-04-06,987,Funny Jokes Photos,COMICS,4.4,39,4300000.0,10000,Free,0.0,Everyone 10+,Comics,2018-07-03,1.1,4.2 and up,5206,Melissa Reed,32,Hawaii,388
+283,2021-04-06,597,Emmanuella Funny Videos 2018,COMICS,4.5,314,6100000.0,100000,Free,0.0,Everyone,Comics,2018-05-23,3.1.0,4.1 and up,4454,Jonathan Johnson,61,New York,119
+284,2021-04-06,742,Comic Es - Shojo manga / love comics free of charge ♪ ♪,COMICS,3.9,2181,10000000.0,100000,Free,0.0,Teen,Comics,2018-03-05,1.2.12,4.0.3 and up,3138,Albert Lawson,42,Illinois,346
+285,2021-04-06,377,comico Popular Original Cartoon Updated Everyday Comico,COMICS,3.2,93965,15000000.0,5000000,Free,0.0,Teen,Comics,2018-07-03,6.3.0,4.0.3 and up,9882,Christopher Powell,49,Washington,265
+286,2021-04-06,624,Daily Manga - Comic & Webtoon,COMICS,3.2,1446,7100000.0,100000,Free,0.0,Mature 17+,Comics,2018-05-18,1.0,4.0.3 and up,3666,Adam Mcguire,52,Texas,250
+287,2021-04-06,371,"漫咖 Comics - Manga,Novel and Stories",COMICS,4.1,12088,21000000.0,1000000,Free,0.0,Mature 17+,Comics,2018-07-06,2.3.1,4.0.3 and up,10151,Scott Matthews,27,Kentucky,116
+288,2021-04-06,718,DC Comics,COMICS,4.2,25671,0.0,1000000,Free,0.0,Teen,Comics,2018-06-05,Varies with device,Varies with device,3336,Gary Williams,48,Montana,237
+289,2021-04-06,318,Manga Zero - Japanese cartoon and comic reader,COMICS,4.2,15194,15000000.0,1000000,Free,0.0,Teen,Comics,2018-07-19,4.7.3,4.2 and up,6533,Curtis Powell,51,New Hampshire,180
+290,2021-04-06,456,Marvel Unlimited,COMICS,3.7,22551,11000000.0,1000000,Free,0.0,Teen,Comics,2018-07-24,3.16.0,4.4 and up,6561,Claudia Hampton,21,New Jersey,97
+291,2021-04-06,899,"Tapas – Comics, Novels, and Stories",COMICS,4.5,29839,29000000.0,1000000,Free,0.0,Teen,Comics,2018-07-31,4.1.0,4.4 and up,8767,Kristin Smith,30,Florida,186
+292,2021-04-06,171,Children's cartoons (Mithu-Mina-Raju),COMICS,4.6,279,3300000.0,100000,Free,0.0,Everyone,Comics,2017-12-18,1.6,4.0 and up,3014,Lisa Lam,18,Vermont,162
+293,2021-04-06,726,Manga Master - Best manga & comic reader,COMICS,4.6,24005,4900000.0,500000,Free,0.0,Adults only 18+,Comics,2018-07-04,1.1.7.0,4.1 and up,6530,Mary Marquez,53,Indiana,233
+294,2021-04-06,210,Truyện Vui Tý Quậy,COMICS,4.5,144,4700000.0,10000,Free,0.0,Everyone,Comics,2018-07-19,3.0,4.0.3 and up,9119,Caleb Walker,53,Maine,94
+295,2021-04-06,487,Narrator's Voice,COMICS,4.5,564387,0.0,5000000,Free,0.0,Everyone,Comics,2018-07-05,Varies with device,Varies with device,7027,Elizabeth Sexton,42,Minnesota,191
+296,2021-04-06,778,LINE WEBTOON - Free Comics,COMICS,4.5,1013635,0.0,10000000,Free,0.0,Teen,Comics,2018-07-31,Varies with device,Varies with device,6171,Christina Collins,18,Kansas,311
+297,2021-04-06,334,Verify - Receipts & Expenses,BUSINESS,4.5,413,29000000.0,10000,Free,0.0,Everyone,Business,2018-07-25,2.0.19,5.0 and up,9311,Jay Murphy,42,Hawaii,138
+298,2021-04-06,352,QuickBooks Accounting: Invoicing & Expenses,BUSINESS,4.3,23175,41000000.0,1000000,Free,0.0,Everyone,Business,2018-07-13,18.7,4.1 and up,7745,Peter Diaz,31,Pennsylvania,122
+299,2021-04-06,198,HipChat - Chat Built for Teams,BUSINESS,3.8,5868,20000000.0,500000,Free,0.0,Everyone,Business,2018-07-03,3.19.005,4.1 and up,5692,Brandon Lawson,64,Vermont,381
+300,2021-04-06,146,Xero Accounting Software,BUSINESS,3.5,2111,0.0,100000,Free,0.0,Everyone,Business,2018-07-30,Varies with device,Varies with device,9681,David Mccann,32,Iowa,147
+301,2021-04-06,82,"MailChimp - Email, Marketing Automation",BUSINESS,4.1,5448,12000000.0,500000,Free,0.0,Everyone,Business,2018-07-25,4.9.1,5.0 and up,6510,David Nelson,18,Missouri,115
+302,2021-04-06,829,Crew - Free Messaging and Scheduling,BUSINESS,4.6,4159,48000000.0,500000,Free,0.0,Everyone,Business,2018-07-20,6.1.2,4.0.3 and up,3240,Eric Simon,64,Louisiana,342
+303,2021-04-06,103,Asana: organize team projects,BUSINESS,4.3,20815,10000000.0,1000000,Free,0.0,Everyone,Business,2018-07-26,6.4.4,5.0 and up,1328,Donald Mejia,41,Oregon,230
+304,2021-04-06,871,AdWords Express,BUSINESS,4.1,7149,11000000.0,1000000,Free,0.0,Everyone,Business,2018-07-31,2.6.158,4.0 and up,998,Gabriel Brown,24,Tennessee,169
+305,2021-04-06,436,Accounting App - Zoho Books,BUSINESS,4.5,3079,8500000.0,100000,Free,0.0,Everyone,Business,2018-08-02,5.20.7,4.1 and up,979,Carol Miller,51,Massachusetts,212
+306,2021-04-06,404,Invoice & Time Tracking - Zoho,BUSINESS,4.6,5800,8600000.0,100000,Free,0.0,Everyone,Business,2018-08-02,5.20.7,4.1 and up,5918,Cathy Boyd,47,Illinois,278
+307,2021-04-06,490,join.me - Simple Meetings,BUSINESS,4.0,6989,0.0,1000000,Free,0.0,Everyone,Business,2018-07-16,4.3.0.508,4.4 and up,10013,Sarah Rodriguez,34,Texas,309
+308,2021-04-06,308,Invoice 2go — Professional Invoices and Estimates,BUSINESS,4.2,16422,28000000.0,1000000,Free,0.0,Everyone,Business,2018-08-01,10.46.2,4.1 and up,5919,Whitney Vincent,60,Indiana,268
+309,2021-04-06,906,Google Analytics,BUSINESS,4.5,78662,22000000.0,1000000,Free,0.0,Everyone,Business,2018-02-13,3.7.5,4.4 and up,5416,Andrew Kirk,56,California,139
+310,2021-04-06,500,Quick PDF Scanner + OCR FREE,BUSINESS,4.2,80804,0.0,5000000,Free,0.0,Everyone,Business,2018-02-26,Varies with device,4.0.3 and up,7744,Erika Brown,40,Louisiana,327
+311,2021-04-06,726,SignEasy | Sign and Fill PDF and other Documents,BUSINESS,4.3,8978,0.0,1000000,Free,0.0,Everyone,Business,2018-07-25,Varies with device,Varies with device,8294,Mary Marquez,53,Indiana,99
+312,2021-04-06,904,OfficeSuite : Free Office + PDF Editor,BUSINESS,4.3,1002859,35000000.0,100000000,Free,0.0,Everyone,Business,2018-08-02,9.7.14188,4.1 and up,7200,Donald Kline,36,New Mexico,283
+313,2021-04-06,464,Docs To Go™ Free Office Suite,BUSINESS,4.1,217730,0.0,50000000,Free,0.0,Everyone,Business,2018-04-02,Varies with device,Varies with device,3821,Bobby Mendez,36,California,235
+314,2021-04-06,528,Tiny Scanner Pro: PDF Doc Scan,BUSINESS,4.8,10295,39000000.0,100000,Paid,4.99,Everyone,Business,2017-04-11,3.4.6,3.0 and up,8988,Erica Watson,49,Utah,317
+315,2021-04-06,713,TurboScan: scan documents and receipts in PDF,BUSINESS,4.7,11442,6800000.0,100000,Paid,4.99,Everyone,Business,2018-03-25,1.5.2,4.0 and up,9134,Courtney Warren,27,Minnesota,308
+316,2021-04-06,352,Slack,BUSINESS,4.4,51510,0.0,5000000,Free,0.0,Everyone,Business,2018-08-02,Varies with device,Varies with device,8349,Peter Diaz,31,Pennsylvania,217
+317,2021-04-06,139,Fast Scanner : Free PDF Scan,BUSINESS,4.5,103755,14000000.0,10000000,Free,0.0,Everyone,Business,2018-07-11,3.9.2,4.1 and up,4891,Catherine Wade,39,South Dakota,388
+318,2021-04-06,779,Tiny Scanner - PDF Scanner App,BUSINESS,4.7,286897,39000000.0,10000000,Free,0.0,Everyone,Business,2017-05-30,1.2.6,3.0 and up,8987,Carla Mcintosh,34,Massachusetts,260
+319,2021-04-06,703,Genius Scan - PDF Scanner,BUSINESS,4.4,42492,0.0,1000000,Free,0.0,Everyone,Business,2018-07-11,Varies with device,Varies with device,5325,Anthony Bowman,41,Vermont,232
+320,2021-04-06,173,Mobile Doc Scanner (MDScan) Lite,BUSINESS,4.2,46505,19000000.0,1000000,Free,0.0,Everyone,Business,2018-08-02,3.4.49,4.1 and up,6745,Robert Garcia,44,Nevada,110
+321,2021-04-07,861,Opera Browser: Fast and Secure,COMMUNICATION,4.4,2473509,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-31,47.1.2249.129326,Varies with device,7267,Billy Chung,37,Ohio,302
+322,2021-04-07,709,imo free video calls and chat,COMMUNICATION,4.3,4785892,11000000.0,500000000,Free,0.0,Everyone,Communication,2018-06-08,9.8.000000010501,4.0 and up,10007,Elizabeth Curtis,54,Louisiana,339
+323,2021-04-07,431,Contacts,COMMUNICATION,4.3,66602,0.0,50000000,Free,0.0,Everyone,Communication,2018-06-26,2.8.4.201036949,5.0 and up,3165,James Johnson,21,Georgia,100
+324,2021-04-07,416,Call Free – Free Call,COMMUNICATION,4.3,30209,15000000.0,5000000,Free,0.0,Everyone,Communication,2018-07-28,1.3.4,4.1 and up,2817,Ms. Emily Cox DDS,47,Michigan,153
+325,2021-04-07,891,Web Browser & Explorer,COMMUNICATION,4.0,36901,6600000.0,5000000,Free,0.0,Everyone,Communication,2018-07-04,11.8.6,4.0.3 - 7.1.1,9507,David Williams,31,Iowa,214
+326,2021-04-07,138,Opera Mini - fast web browser,COMMUNICATION,4.5,5149854,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-19,Varies with device,Varies with device,7268,Ashley Lawson,29,Oklahoma,164
+327,2021-04-07,321,Browser 4G,COMMUNICATION,4.3,192948,6600000.0,10000000,Free,0.0,Everyone,Communication,2018-06-19,24.6.6,4.0.3 - 7.1.1,2283,Chad Jones,39,Georgia,235
+328,2021-04-07,892,MegaFon Dashboard,COMMUNICATION,3.7,99559,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-30,Varies with device,Varies with device,6628,Haley Gates,20,Florida,238
+329,2021-04-07,750,ZenUI Dialer & Contacts,COMMUNICATION,4.5,437674,0.0,10000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,9770,Steven Collins,41,Alaska,346
+330,2021-04-07,606,Cricket Visual Voicemail,COMMUNICATION,3.9,13698,5100000.0,10000000,Free,0.0,Everyone,Communication,2018-07-02,3.2.0.100171,4.1 and up,3243,Kimberly Butler,62,Louisiana,96
+331,2021-04-07,180,TracFone My Account,COMMUNICATION,3.6,20769,18000000.0,1000000,Free,0.0,Everyone,Communication,2018-07-11,R6.0.3,4.1 and up,9053,Karen Carrillo,42,Illinois,242
+332,2021-04-07,405,imo beta free calls and text,COMMUNICATION,4.3,659395,11000000.0,100000000,Free,0.0,Everyone,Communication,2018-06-07,9.8.000000010492,4.0 and up,10006,Kelsey Rogers,54,Oklahoma,172
+333,2021-04-07,802,Google Voice,COMMUNICATION,4.2,171031,0.0,10000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,5447,Deborah Gutierrez,61,Florida,188
+334,2021-04-07,762,Chrome Dev,COMMUNICATION,4.4,63543,0.0,5000000,Free,0.0,Everyone,Communication,2018-08-02,69.0.3497.24,Varies with device,3031,Eugene Lawrence,62,New Mexico,140
+335,2021-04-07,477,Xperia Link™,COMMUNICATION,4.1,45487,0.0,10000000,Free,0.0,Everyone,Communication,2016-10-27,Varies with device,Varies with device,9682,Elizabeth Knapp,42,Vermont,324
+336,2021-04-07,732,TouchPal Keyboard - Fun Emoji & Android Keyboard,COMMUNICATION,4.4,615381,37000000.0,10000000,Free,0.0,Mature 17+,Communication,2018-08-02,6.7.9.1,4.0.3 and up,9036,Rodney Gay,42,Kansas,215
+337,2021-04-07,966,Who,COMMUNICATION,4.3,2451083,0.0,100000000,Free,0.0,Teen,Communication,2018-08-03,Varies with device,Varies with device,9564,Susan Santos,21,Florida,120
+338,2021-04-07,548,Skype Lite - Free Video Call & Chat,COMMUNICATION,4.2,33053,22000000.0,5000000,Free,0.0,Everyone,Communication,2018-07-31,1.60.0.31354-release,4.0.3 and up,8345,Gary Riley,53,Maine,308
+339,2021-04-07,148,WeChat,COMMUNICATION,4.2,5387333,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-31,Varies with device,Varies with device,9483,Chelsey Clark,39,Georgia,341
+340,2021-04-07,541,UC Browser Mini -Tiny Fast Private & Secure,COMMUNICATION,4.4,3648120,3300000.0,100000000,Free,0.0,Teen,Communication,2018-07-18,11.4.0,4.0 and up,9173,Dr. Bill Wright,28,Maine,316
+341,2021-04-07,516,WhatsApp Business,COMMUNICATION,4.4,136662,32000000.0,10000000,Free,0.0,Everyone,Communication,2018-07-30,2.18.116,4.0.3 and up,9540,Karen Hernandez,62,Louisiana,105
+342,2021-04-07,413,My magenta,COMMUNICATION,3.9,42370,37000000.0,1000000,Free,0.0,Everyone,Communication,2018-06-25,7.5.1,5.0 and up,6950,Katherine Hall,64,Wisconsin,286
+343,2021-04-07,105,Firefox Focus: The privacy browser,COMMUNICATION,4.4,36880,4000000.0,1000000,Free,0.0,Everyone,Communication,2018-07-06,5.2,5.0 and up,4966,Laura Miller,51,Virginia,386
+344,2021-04-07,182,Yahoo Mail – Stay Organized,COMMUNICATION,4.3,4187998,16000000.0,100000000,Free,0.0,Everyone,Communication,2018-07-18,5.29.3,4.4 and up,9693,Lisa Hall,30,New Jersey,376
+345,2021-04-07,135,Gmail,COMMUNICATION,4.3,4604324,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-02,Varies with device,Varies with device,5369,Regina Wilson,52,North Dakota,211
+346,2021-04-07,704,My Tele2,COMMUNICATION,4.3,158679,8800000.0,5000000,Free,0.0,Everyone,Communication,2018-08-03,2.4.1,4.4 and up,6937,Edward Terry,47,Montana,147
+347,2021-04-07,499,【Ranobbe complete free】 Novelba - Free app that you can read and write novels,COMICS,4.3,1330,22000000.0,50000,Free,0.0,Everyone,Comics,2018-07-03,6.1.1,4.2 and up,10143,Kyle Berry,40,Louisiana,209
+348,2021-04-07,932,Faustop Sounds,COMICS,4.7,1677,40000000.0,100000,Free,0.0,Everyone,Comics,2018-05-26,1.7.7,4.1 and up,4903,Elizabeth Kelley,64,Wyoming,290
+349,2021-04-07,443,Manga Mania - Best online manga reader,COMICS,4.4,757,10000000.0,10000,Free,0.0,Teen,Comics,2018-05-24,1.0,4.1 and up,6529,Cathy Reyes,28,Texas,127
+350,2021-04-07,928,- Free Comics - Comic Apps,COMICS,3.5,115,9100000.0,10000,Free,0.0,Mature 17+,Comics,2018-07-13,5.0.12,5.0 and up,502,David Morgan,28,Florida,134
+351,2021-04-07,579,Manga AZ - Manga Comic Reader,COMICS,3.3,125,4700000.0,5000,Free,0.0,Teen,Comics,2018-07-24,1.0.4,4.0.3 and up,6527,James Carpenter,45,Illinois,374
+352,2021-04-07,554,Buff Thun - Daily Free Webtoon / Comics / Web Fiction / Mini Game,COMICS,4.5,9952,38000000.0,500000,Free,0.0,Everyone 10+,Comics,2018-07-31,4.3.0,4.1 and up,2309,John Chung,64,Missouri,250
+353,2021-04-07,816,Funny Jokes and Stories 2018,COMICS,4.2,21,6700000.0,5000,Free,0.0,Everyone,Comics,2018-03-31,1.3,4.0 and up,5207,Kelly Alvarez,49,Utah,95
+354,2021-04-07,385,Hojiboy Tojiboyev Life Hacks,COMICS,5.0,15,37000000.0,1000,Free,0.0,Everyone,Comics,2018-06-26,2.0,4.0.3 and up,5701,Paul King,56,Washington,271
+355,2021-04-07,706,Perfect Viewer,COMICS,4.4,51981,0.0,5000000,Free,0.0,Everyone,Comics,2018-08-01,4.2.0.2,2.3 and up,7425,Sally Mcdonald MD,38,California,250
+356,2021-04-07,623,"Best Wallpapers Backgrounds(100,000+ 4K HD)",COMICS,4.7,3596,7800000.0,10000,Free,0.0,Teen,Comics,2018-06-16,1.01,4.0.3 and up,2058,Michele Mccarthy,62,Washington,188
+357,2021-04-07,780,pixiv comic - everyone's manga app,COMICS,4.4,18814,0.0,1000000,Free,0.0,Mature 17+,Comics,2018-07-30,Varies with device,Varies with device,10068,Gary Smith,59,West Virginia,247
+358,2021-04-07,279,Memes Button,COMICS,4.4,5968,5700000.0,1000000,Free,0.0,Everyone,Comics,2018-05-28,1.4,4.0 and up,6639,Neil Grimes,64,West Virginia,198
+359,2021-04-07,756,think Comics,COMICS,4.4,1006,19000000.0,50000,Free,0.0,Everyone,Comics,2018-08-03,2.3.3,4.0.3 and up,10097,Sarah Mcdonald,39,Pennsylvania,161
+360,2021-04-07,988,Hangouts,COMMUNICATION,4.0,3419249,0.0,1000000000,Free,0.0,Everyone,Communication,2018-07-21,Varies with device,Varies with device,5618,Jean Kemp,25,Florida,206
+361,2021-04-07,91,Firefox Browser fast & private,COMMUNICATION,4.4,3075028,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-10,Varies with device,Varies with device,4965,Benjamin Rogers,21,South Carolina,396
+362,2021-04-07,43,Messenger Lite: Free Calls & Messages,COMMUNICATION,4.4,1429035,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-25,37.0.0.7.163,2.3 and up,6661,Kelly Armstrong,40,Maryland,241
+363,2021-04-07,35,Google Chrome: Fast & Secure,COMMUNICATION,4.3,9642995,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,5421,James Alvarado,32,North Carolina,236
+364,2021-04-07,694,Viber Messenger,COMMUNICATION,4.3,11334799,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-18,Varies with device,Varies with device,9315,Olivia Crosby,62,Virginia,277
+365,2021-04-07,1,WhatsApp Messenger,COMMUNICATION,4.4,69119316,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,9541,Michelle Sanchez,48,Virginia,297
+366,2021-04-07,454,Messenger – Text and Video Chat for Free,COMMUNICATION,4.0,56642847,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,6665,Ernest Davis,33,Michigan,304
+367,2021-04-07,194,"Laftel - Watching and Announcing Snooping, Streaming",COMICS,4.6,4895,35000000.0,100000,Free,0.0,Everyone,Comics,2018-08-02,2.4.25,4.4 and up,6191,Christopher Grimes,53,Arkansas,346
+368,2021-04-07,812,Messenger for SMS,COMMUNICATION,4.3,125257,17000000.0,10000000,Free,0.0,Teen,Communication,2018-06-06,1.8.9,4.1 and up,6664,Melissa Kramer,26,North Dakota,150
+369,2021-04-08,400,GroupMe,COMMUNICATION,4.5,330761,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-03,Varies with device,Varies with device,5474,Mary Webster,57,Montana,161
+370,2021-04-08,659,"GO SMS Pro - Messenger, Free Themes, Emoji",COMMUNICATION,4.4,2876500,24000000.0,100000000,Free,0.0,Everyone,Communication,2018-08-01,7.73,4.0 and up,5262,Justin Espinoza,33,Ohio,269
+371,2021-04-08,426,Android Messages,COMMUNICATION,4.2,781810,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,1215,Charles Perez,51,Montana,169
+372,2021-04-08,835,"Messaging+ SMS, MMS Free",COMMUNICATION,4.1,28238,17000000.0,1000000,Free,0.0,Everyone,Communication,2018-08-02,4.98,2.3 and up,6657,Lori Lynch,26,Virginia,102
+373,2021-04-08,306,chomp SMS,COMMUNICATION,4.3,335646,8300000.0,10000000,Free,0.0,Everyone,Communication,2018-07-26,7.21,2.3 and up,9872,Morgan Rowland,27,New Mexico,208
+374,2021-04-08,632,Glide - Video Chat Messenger,COMMUNICATION,4.3,350154,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-29,Varies with device,Varies with device,5363,Richard Huynh,55,Texas,170
+375,2021-04-08,334,Text SMS,COMMUNICATION,4.5,349384,8200000.0,10000000,Free,0.0,Everyone,Communication,2018-07-24,3.47,4.0.3 and up,8830,Jay Murphy,42,Hawaii,352
+376,2021-04-08,313,Google Allo,COMMUNICATION,4.3,346982,0.0,10000000,Free,0.0,Everyone,Communication,2018-01-23,Varies with device,4.1 and up,5415,Michelle Roberts,59,Massachusetts,121
+377,2021-04-08,204,Talkray - Free Calls & Texts,COMMUNICATION,4.2,244863,0.0,10000000,Free,0.0,Everyone,Communication,2018-05-29,Varies with device,Varies with device,8758,Brandy Smith,57,Alabama,152
+378,2021-04-08,30,LINE: Free Calls & Messages,COMMUNICATION,4.2,10790289,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-26,Varies with device,Varies with device,6172,Kelly Wright,26,Oregon,222
+379,2021-04-08,618,mysms SMS Text Messaging Sync,COMMUNICATION,4.3,37320,8400000.0,1000000,Free,0.0,Everyone,Communication,2018-07-30,6.5.1,4.0.3 and up,10056,Maria Costa,63,Pennsylvania,298
+380,2021-04-08,853,Ninesky Browser,COMMUNICATION,4.2,42925,2800000.0,1000000,Free,0.0,Everyone,Communication,2017-08-27,6.1,2.3 and up,7117,Candice Hoffman,28,Ohio,239
+381,2021-04-08,186,KakaoTalk: Free Calls & Text,COMMUNICATION,4.3,2546527,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,6045,Samantha Vazquez,44,North Carolina,219
+382,2021-04-08,861,Firefox Focus: The privacy browser,COMMUNICATION,4.4,36893,4000000.0,1000000,Free,0.0,Everyone,Communication,2018-07-06,5.2,5.0 and up,4966,Billy Chung,37,Ohio,129
+383,2021-04-08,604,2ndLine - Second Phone Number,COMMUNICATION,4.2,15880,32000000.0,1000000,Free,0.0,Everyone,Communication,2018-08-03,5.65.0,4.0 and up,547,Andrea King,36,California,157
+384,2021-04-08,678,Google Allo,COMMUNICATION,4.3,346980,0.0,10000000,Free,0.0,Everyone,Communication,2018-01-23,Varies with device,4.1 and up,5415,Caitlyn Ramirez,30,South Carolina,348
+385,2021-04-08,685,Google Chrome: Fast & Secure,COMMUNICATION,4.3,9643041,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,5421,Donald Hoover,51,Connecticut,90
+386,2021-04-08,475,Firefox Browser fast & private,COMMUNICATION,4.4,3075118,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-10,Varies with device,Varies with device,4965,Damon Daniels,34,Louisiana,230
+387,2021-04-08,885,"CM Browser - Ad Blocker , Fast Download , Privacy",COMMUNICATION,4.6,2264916,6100000.0,50000000,Free,0.0,Everyone,Communication,2018-07-31,5.22.18.0006,4.0 and up,2601,Joshua Myers,18,North Dakota,236
+388,2021-04-08,67,Puffin Web Browser,COMMUNICATION,4.3,541389,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-09,7.5.3.20547,4.1 and up,7679,Christopher Wells,36,Nevada,303
+389,2021-04-08,555,Opera Browser: Fast and Secure,COMMUNICATION,4.4,2473693,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-31,47.1.2249.129326,Varies with device,7267,Logan Ward MD,53,Wisconsin,151
+390,2021-04-08,69,Google Voice,COMMUNICATION,4.2,171031,0.0,10000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,5447,James Arnold,63,Nebraska,301
+391,2021-04-08,665,BBM - Free Calls & Messages,COMMUNICATION,4.3,12842860,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-02,Varies with device,4.0.3 and up,1466,Clifford Henson,40,New Hampshire,133
+392,2021-04-08,340,Who,COMMUNICATION,4.3,2451093,0.0,100000000,Free,0.0,Teen,Communication,2018-08-03,Varies with device,Varies with device,9564,Amber Wright,51,New Mexico,99
+393,2021-04-08,777,Telegram,COMMUNICATION,4.4,3128509,0.0,100000000,Free,0.0,Mature 17+,Communication,2018-07-27,Varies with device,Varies with device,8796,Jasmin Phillips,58,Iowa,140
+394,2021-04-08,945,Skype - free IM & video calls,COMMUNICATION,4.1,10484169,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,8344,Barry Adams,60,South Dakota,243
+395,2021-04-08,813,Telegram,COMMUNICATION,4.4,3128250,0.0,100000000,Free,0.0,Mature 17+,Communication,2018-07-27,Varies with device,Varies with device,8796,Douglas Gill,56,Mississippi,380
+396,2021-04-08,747,Google Duo - High Quality Video Calls,COMMUNICATION,4.6,2083237,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-31,37.1.206017801.DR37_RC14,4.4 and up,5425,Andrew Bishop,31,Oregon,272
+397,2021-04-08,140,Puffin Web Browser,COMMUNICATION,4.3,541389,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-09,7.5.3.20547,4.1 and up,7679,Kevin Rodgers,52,South Dakota,216
+398,2021-04-08,30,Seznam.cz,COMMUNICATION,4.3,46702,0.0,1000000,Free,0.0,Everyone,Communication,2018-07-04,Varies with device,Varies with device,8249,Kelly Wright,26,Oregon,235
+399,2021-04-08,447,Antillean Gold Telegram (original version),COMMUNICATION,4.4,2939,17000000.0,100000,Free,0.0,Everyone,Communication,2018-07-16,2.1,4.1 and up,1267,Douglas Chandler,24,West Virginia,365
+400,2021-04-08,522,AT&T Visual Voicemail,COMMUNICATION,3.7,13761,0.0,10000000,Free,0.0,Everyone,Communication,2018-06-27,Varies with device,Varies with device,894,Brandy Cox,48,Alabama,386
+401,2021-04-08,585,GMX Mail,COMMUNICATION,4.3,258556,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-25,Varies with device,Varies with device,5253,Stephanie Graham,37,Virginia,234
+402,2021-04-08,651,Omlet Chat,COMMUNICATION,3.9,40751,35000000.0,10000000,Free,0.0,Teen,Communication,2016-11-04,2.2.7600,4.0.3 and up,7233,Kenneth Craig,47,Nebraska,285
+403,2021-04-08,637,UC Browser - Fast Download Private & Secure,COMMUNICATION,4.5,17712922,40000000.0,500000000,Free,0.0,Teen,Communication,2018-08-02,12.8.5.1121,4.0 and up,9172,Brian Hickman,48,Kentucky,136
+404,2021-04-08,763,My Vodacom SA,COMMUNICATION,3.7,25021,61000000.0,5000000,Free,0.0,Everyone,Communication,2018-06-26,9.9.0,4.3 and up,6941,Courtney Hudson,25,Maryland,296
+405,2021-04-08,514,Android Messages,COMMUNICATION,4.2,781810,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,1215,Ashley Castro,43,New York,233
+406,2021-04-08,665,WhatsApp Messenger,COMMUNICATION,4.4,69119316,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,9541,Clifford Henson,40,New Hampshire,192
+407,2021-04-08,126,Messenger – Text and Video Chat for Free,COMMUNICATION,4.0,56646578,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,6665,Dylan Smith,64,Virginia,264
+408,2021-04-08,261,imo free video calls and chat,COMMUNICATION,4.3,4785988,11000000.0,500000000,Free,0.0,Everyone,Communication,2018-06-08,9.8.000000010501,4.0 and up,10007,Kimberly Carpenter,55,Oregon,116
+409,2021-04-08,577,Hangouts Dialer - Call Phones,COMMUNICATION,4.0,122498,79000.0,10000000,Free,0.0,Everyone,Communication,2015-09-02,0.1.100944346,4.0.3 and up,5619,Robert Jensen,38,Wisconsin,251
+410,2021-04-08,970,Viber Messenger,COMMUNICATION,4.3,11334973,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-18,Varies with device,Varies with device,9315,Jacqueline Chavez,47,Ohio,198
+411,2021-04-08,358,Hangouts,COMMUNICATION,4.0,3419433,0.0,1000000000,Free,0.0,Everyone,Communication,2018-07-21,Varies with device,Varies with device,5618,Laura Patrick DDS,27,Kansas,275
+412,2021-04-08,889,"Talkatone: Free Texts, Calls & Phone Number",COMMUNICATION,4.1,132014,25000000.0,10000000,Free,0.0,Everyone,Communication,2018-07-18,6.1,4.2 and up,8742,Hayden Smith,63,Minnesota,93
+413,2021-04-08,69,Calls & Text by Mo+,COMMUNICATION,4.2,83239,14000000.0,5000000,Free,0.0,Everyone,Communication,2018-04-19,3.0.4,4.0 and up,2826,James Arnold,63,Nebraska,279
+414,2021-04-08,17,free video calls and chat,COMMUNICATION,4.2,594728,0.0,50000000,Free,0.0,Everyone,Communication,2018-07-19,7.3(800241),4.4 and up,9960,Richard Miller,26,Montana,295
+415,2021-04-08,126,WeChat,COMMUNICATION,4.2,5387446,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-31,Varies with device,Varies with device,9483,Dylan Smith,64,Virginia,290
+416,2021-04-08,230,Microsoft Edge,COMMUNICATION,4.3,27187,66000000.0,5000000,Free,0.0,Everyone,Communication,2018-07-28,42.0.0.2059,4.4 and up,6684,Ryan Boyd,46,Delaware,281
+417,2021-04-09,978,Gmail,COMMUNICATION,4.3,4604483,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-02,Varies with device,Varies with device,5369,Robert Nunez,37,Illinois,303
+418,2021-04-09,213,Caller ID +,COMMUNICATION,4.0,9498,118000.0,1000000,Free,0.0,Everyone,Communication,2016-06-07,5.28.0,2.3 and up,2825,Crystal Martinez,21,South Carolina,369
+419,2021-04-09,122,"Truecaller: Caller ID, SMS spam blocking & Dialer",COMMUNICATION,4.5,7820209,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-01,Varies with device,Varies with device,9114,David White,44,Mississippi,146
+420,2021-04-09,453,Call Control - Call Blocker,COMMUNICATION,4.4,93825,11000000.0,5000000,Free,0.0,Everyone,Communication,2018-07-05,2.17.3,4.1 and up,2816,Caleb Baker,37,Washington,314
+421,2021-04-09,49,Sync.ME – Caller ID & Block,COMMUNICATION,4.5,205739,17000000.0,5000000,Free,0.0,Everyone,Communication,2018-07-26,4.5.4,4.1 and up,8678,Tanya Peters,36,Kansas,263
+422,2021-04-09,458,Video Caller Id,COMMUNICATION,4.2,15287,17000000.0,1000000,Free,0.0,Everyone,Communication,2018-01-24,2.2.245,4.0.3 and up,9321,Arthur Knight,36,Florida,377
+423,2021-04-09,335,True Contact - Real Caller ID,COMMUNICATION,4.1,32283,0.0,1000000,Free,0.0,Everyone,Communication,2018-07-26,Varies with device,Varies with device,9110,Jennifer Davis,37,Iowa,269
+424,2021-04-09,520,Yahoo Mail – Stay Organized,COMMUNICATION,4.3,4188142,16000000.0,100000000,Free,0.0,Everyone,Communication,2018-07-18,5.29.3,4.4 and up,9693,Rebecca Turner,28,New York,116
+425,2021-04-09,694,Burner - Free Phone Number,COMMUNICATION,4.3,14873,0.0,1000000,Free,0.0,Everyone,Communication,2018-07-12,Varies with device,Varies with device,2324,Olivia Crosby,62,Virginia,95
+426,2021-04-09,116,K-9 Mail,COMMUNICATION,4.2,88427,5100000.0,5000000,Free,0.0,Everyone,Communication,2018-01-06,5.403,4.0.3 and up,6020,Timothy Hall,53,Rhode Island,398
+427,2021-04-09,868,Mail.Ru - Email App,COMMUNICATION,4.6,837842,0.0,50000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,6508,Suzanne Robles,43,Louisiana,215
+428,2021-04-09,132,Email TypeApp - Mail App,COMMUNICATION,4.6,183374,44000000.0,1000000,Free,0.0,Everyone,Communication,2018-08-01,1.9.4.74,4.1 and up,4450,Roger Johnson,47,Colorado,261
+429,2021-04-09,589,All Email Providers,COMMUNICATION,4.1,20901,7300000.0,1000000,Free,0.0,Everyone,Communication,2018-04-03,5.0.9,4.1 and up,1146,Sheila Johnson,40,West Virginia,340
+430,2021-04-09,125,"Newton Mail - Email App for Gmail, Outlook, IMAP",COMMUNICATION,4.0,122595,30000000.0,1000000,Free,0.0,Everyone,Communication,2018-07-19,9.8.376,5.0 and up,7090,Jeanette Rodriguez,40,Alaska,222
+431,2021-04-09,469,GO Notifier,COMMUNICATION,4.2,124346,695000.0,10000000,Free,0.0,Everyone,Communication,2014-07-06,2.8,2.0 and up,5260,Matthew Ballard,56,Idaho,148
+432,2021-04-09,437,Mail1Click - Secure Mail,COMMUNICATION,4.1,255,1600000.0,10000,Free,0.0,Everyone,Communication,2017-04-11,2.3,2.2 and up,6509,Bob Griffin,26,Louisiana,361
+433,2021-04-09,539,Daum Mail - Next Mail,COMMUNICATION,4.3,41420,19000000.0,5000000,Free,0.0,Everyone,Communication,2018-06-21,3.2.0,4.0 and up,3692,Helen Saunders,43,New Mexico,195
+434,2021-04-09,177,mail.com mail,COMMUNICATION,4.2,44706,0.0,1000000,Free,0.0,Everyone,Communication,2018-07-25,Varies with device,Varies with device,10033,Michael Leonard,28,Missouri,340
+435,2021-04-09,766,SolMail - All-in-One email app,COMMUNICATION,4.3,23707,0.0,500000,Free,0.0,Everyone,Communication,2017-08-09,2.3.17,Varies with device,8416,Wanda Alvarado,30,Missouri,99
+436,2021-04-09,974,Hangouts,COMMUNICATION,4.0,3419513,0.0,1000000000,Free,0.0,Everyone,Communication,2018-07-21,Varies with device,Varies with device,5618,Michael Vang,20,Colorado,226
+437,2021-04-09,692,Calls Blacklist - Call Blocker,COMMUNICATION,4.5,457283,0.0,10000000,Free,0.0,Everyone,Communication,2018-05-24,Varies with device,Varies with device,2827,Crystal Bennett,40,Oklahoma,114
+438,2021-04-09,933,"myMail – Email for Hotmail, Gmail and Outlook Mail",COMMUNICATION,4.5,305218,0.0,10000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,10050,Kyle Gilbert,21,Maryland,310
+439,2021-04-09,378,CIA - Caller ID & Call Blocker,COMMUNICATION,4.0,60308,0.0,5000000,Free,0.0,Everyone,Communication,2018-06-22,Varies with device,Varies with device,2539,Jennifer Smith,54,West Virginia,235
+440,2021-04-09,376,Whoscall - Caller ID & Block,COMMUNICATION,4.4,552441,29000000.0,10000000,Free,0.0,Everyone,Communication,2018-08-01,6.19.1,4.1 and up,9570,Kyle Gibbs,42,Illinois,225
+441,2021-04-09,769,Opera Mini - fast web browser,COMMUNICATION,4.5,5150471,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-19,Varies with device,Varies with device,7268,Richard Wells,60,West Virginia,275
+442,2021-04-09,895,"Dolphin Browser - Fast, Private & Adblock🐬",COMMUNICATION,4.5,2511130,0.0,50000000,Free,0.0,Everyone,Communication,2018-07-02,Varies with device,Varies with device,3837,Kristen Stone,27,Texas,116
+443,2021-04-09,57,UC Browser Mini -Tiny Fast Private & Secure,COMMUNICATION,4.4,3648480,3300000.0,100000000,Free,0.0,Teen,Communication,2018-07-18,11.4.0,4.0 and up,9173,Mr. David White DDS,47,Illinois,112
+444,2021-04-09,759,UC Browser - Fast Download Private & Secure,COMMUNICATION,4.5,17714850,40000000.0,500000000,Free,0.0,Teen,Communication,2018-08-02,12.8.5.1121,4.0 and up,9172,Lisa Lewis PhD,21,Mississippi,266
+445,2021-04-09,803,Ghostery Privacy Browser,COMMUNICATION,4.1,13100,2200000.0,1000000,Free,0.0,Everyone,Communication,2018-03-20,1.4.1.0,4.0.3 and up,5343,Jeremy Gay,44,Minnesota,104
+446,2021-04-09,859,InBrowser - Incognito Browsing,COMMUNICATION,4.2,27156,0.0,1000000,Free,0.0,Everyone,Communication,2018-05-31,Varies with device,Varies with device,5868,Kelli Combs,27,Vermont,108
+447,2021-04-09,414,Web Browser for Android,COMMUNICATION,4.1,55098,4300000.0,1000000,Free,0.0,Everyone,Communication,2018-06-20,2.2,4.0 and up,9510,Courtney Gonzalez,32,Mississippi,277
+448,2021-04-09,98,DU Browser—Browse fast & fun,COMMUNICATION,4.3,1133501,4700000.0,10000000,Free,0.0,Everyone,Communication,2016-04-01,6.4.0.4,4.0 and up,3572,Christopher Chavez,41,Nevada,93
+449,2021-04-09,654,Lightning Web Browser,COMMUNICATION,4.1,12578,2300000.0,500000,Free,0.0,Everyone,Communication,2017-07-10,4.5.1,4.0 and up,6316,Robert Anderson,56,Arizona,330
+450,2021-04-09,912,Web Browser,COMMUNICATION,4.2,10965,2300000.0,500000,Free,0.0,Everyone,Communication,2015-02-02,2.0,3.0 and up,9506,Linda Park,18,Colorado,259
+451,2021-04-09,513,Puffin Browser Pro,COMMUNICATION,4.0,18247,0.0,100000,Paid,3.99,Everyone,Communication,2018-07-05,7.5.3.20547,4.1 and up,7678,Gregory Tyler,35,Minnesota,320
+452,2021-04-09,742,Contacts+,COMMUNICATION,4.2,190613,11000000.0,10000000,Free,0.0,Everyone,Communication,2018-07-31,5.85.1,4.0.3 and up,3166,Albert Lawson,42,Illinois,227
+453,2021-04-09,713,"CallApp: Caller ID, Blocker & Phone Call Recorder",COMMUNICATION,4.4,483565,20000000.0,10000000,Free,0.0,Everyone,Communication,2018-07-29,1.286,4.1 and up,2823,Courtney Warren,27,Minnesota,313
+454,2021-04-09,645,Calls & Text by Mo+,COMMUNICATION,4.2,83239,14000000.0,5000000,Free,0.0,Everyone,Communication,2018-04-19,3.0.4,4.0 and up,2826,Donald Rodriguez,44,Texas,110
+455,2021-04-09,973,Viber Messenger,COMMUNICATION,4.3,11334973,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-18,Varies with device,Varies with device,9315,Katie Fisher,33,Georgia,115
+456,2021-04-09,599,PHONE for Google Voice & GTalk,COMMUNICATION,4.3,72065,13000000.0,1000000,Free,0.0,Everyone,Communication,2018-04-18,3.0.7,4.0 and up,7329,Ronald Walker,40,Virginia,188
+457,2021-04-09,555,Safest Call Blocker,COMMUNICATION,4.4,27540,3700000.0,1000000,Free,0.0,Everyone,Communication,2018-01-05,1.26.001,4.0 and up,8128,Logan Ward MD,53,Wisconsin,280
+458,2021-04-09,699,Full Screen Caller ID,COMMUNICATION,4.2,104990,10000000.0,5000000,Free,0.0,Everyone,Communication,2018-05-15,3.5.0,4.0.3 and up,5199,Douglas Watson,32,Texas,253
+459,2021-04-09,377,Hiya - Caller ID & Block,COMMUNICATION,4.4,177703,13000000.0,10000000,Free,0.0,Mature 17+,Communication,2018-07-25,8.1.2-6310,5.0 and up,5699,Christopher Powell,49,Washington,203
+460,2021-04-09,229,Call Blocker,COMMUNICATION,4.1,17529,10000000.0,1000000,Free,0.0,Everyone,Communication,2018-07-26,5.86,4.0.3 and up,2813,Travis Donaldson,44,Alabama,225
+461,2021-04-09,465,Mr. Number-Block calls & spam,COMMUNICATION,4.2,177263,13000000.0,10000000,Free,0.0,Mature 17+,Communication,2018-07-13,5.1.2-6310,5.0 and up,6845,Michael Berger,49,Pennsylvania,155
+462,2021-04-09,330,Should I Answer?,COMMUNICATION,4.8,237468,8800000.0,1000000,Free,0.0,Everyone,Communication,2018-07-26,2018.1.715,4.0 and up,8282,Nicole Morris,46,Georgia,186
+463,2021-04-09,692,RocketDial Dialer & Contacts,COMMUNICATION,4.4,32254,5500000.0,1000000,Free,0.0,Everyone,Communication,2017-12-04,3.9.7,2.1 and up,7997,Crystal Bennett,40,Oklahoma,301
+464,2021-04-09,481,ExDialer - Dialer & Contacts,COMMUNICATION,4.2,125232,2700000.0,10000000,Free,0.0,Everyone,Communication,2017-03-05,196,2.1 and up,4550,Jordan Fields,19,Iowa,92
+465,2021-04-10,230,stranger chat - anonymous chat,DATING,3.5,13202,6100000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-07,2.4.1,4.1 and up,10084,Ryan Boyd,46,Delaware,171
+466,2021-04-10,99,Free Dating App & Flirt Chat - Cheers,DATING,4.4,667,27000000.0,10000,Free,0.0,Mature 17+,Dating,2018-08-03,1.308.us,4.1 and up,5123,Lori Anderson,22,Texas,191
+467,2021-04-10,63,Mingle2 - Free Online Dating & Singles Chat Rooms,DATING,4.3,37053,44000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-08-03,4.4B,4.1 and up,6713,Travis Jimenez,18,Maryland,160
+468,2021-04-10,70,Black People Meet Singles Date,DATING,3.9,10212,5000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-25,1.9.7,4.4 and up,2135,Miss Lori Foley,46,Indiana,228
+469,2021-04-10,561,Hot or Not - Find someone right now,DATING,4.1,305708,0.0,10000000,Free,0.0,Mature 17+,Dating,2018-08-02,Varies with device,Varies with device,5744,Mr. Jason Wilkinson,53,Georgia,228
+470,2021-04-10,838,"Chispa, the Dating App for Latino, Latina Singles",DATING,4.2,4195,24000000.0,100000,Free,0.0,Mature 17+,Dating,2018-07-25,1.6.1,4.4 and up,3021,Michelle Skinner,52,Utah,155
+471,2021-04-10,377,Free Dating App & Flirt Chat - Match with Singles,DATING,4.4,172460,3100000.0,5000000,Free,0.0,Mature 17+,Dating,2018-08-04,1.639,4.0 and up,5124,Christopher Powell,49,Washington,384
+472,2021-04-10,367,eharmony - Online Dating App,DATING,3.1,31320,53000000.0,5000000,Free,0.0,Mature 17+,Dating,2018-07-30,6.6.5,4.1 and up,9942,Todd Sullivan,36,Florida,166
+473,2021-04-10,203,"Blendr - Chat, Flirt & Meet",DATING,4.0,28671,0.0,1000000,Free,0.0,Mature 17+,Dating,2018-08-01,Varies with device,Varies with device,2153,Adam Thompson,18,Virginia,320
+474,2021-04-10,577,Clover Dating App,DATING,4.1,11633,23000000.0,500000,Free,0.0,Mature 17+,Dating,2018-07-24,2.5.1,4.1 and up,3087,Robert Jensen,38,Wisconsin,220
+475,2021-04-10,657,Free Dating Hook Up Messenger,DATING,3.3,1157,21000000.0,100000,Free,0.0,Mature 17+,Dating,2017-01-27,5.0.1,4.2 and up,5127,Rachel Calhoun,23,Kansas,231
+476,2021-04-10,944,Howlr,DATING,3.9,105,27000000.0,5000,Free,0.0,Mature 17+,Dating,2018-06-19,1.0.4,4.4 and up,5772,Sean Miller,19,Texas,218
+477,2021-04-10,443,Once - Quality Matches Every day,DATING,4.4,222888,21000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-17,2.45,4.1 and up,7237,Cathy Reyes,28,Texas,116
+478,2021-04-10,824,BLK - Swipe. Match. Chat.,DATING,4.1,2067,24000000.0,100000,Free,0.0,Mature 17+,Dating,2018-07-25,1.6.1,4.4 and up,1658,Christopher Brown,51,Louisiana,214
+479,2021-04-10,236,Cougar Dating Life : Date Older Women Sugar Mummy,DATING,3.9,1643,31000000.0,500000,Free,0.0,Mature 17+,Dating,2018-07-03,4.5.5,4.1 and up,3197,Karen Davis,36,Minnesota,196
+480,2021-04-10,507,Stranger Chat & Date,DATING,3.6,3414,6200000.0,500000,Free,0.0,Mature 17+,Dating,2018-06-06,1.2.1,4.1 and up,8558,Christopher Gonzalez,41,Washington,269
+481,2021-04-10,119,Free Dating & Flirt Chat - Choice of Love,DATING,4.0,42194,0.0,5000000,Free,0.0,Mature 17+,Dating,2018-07-24,Varies with device,Varies with device,5122,Michael Duffy,28,Michigan,199
+482,2021-04-10,578,RandoChat - Chat roulette,DATING,3.6,11806,12000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-06-26,4.0.18,4.0.3 and up,7844,Rodney Le,62,Nevada,277
+483,2021-04-10,530,BeWild Free Dating & Chat App,DATING,3.4,1999,8000000.0,100000,Free,0.0,Mature 17+,Dating,2017-02-03,1.6.5,4.2 and up,1998,Kimberly Harris,57,Louisiana,302
+484,2021-04-10,821,"FastMeet: Chat, Dating, Love",DATING,4.2,22544,5900000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-27,1.31.4,4.0.3 and up,4895,Connie Salazar,48,Wyoming,375
+485,2021-04-10,394,"Free Dating App - YoCutie - Flirt, Chat & Meet",DATING,4.1,97684,7900000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-10,1.230,4.0.3 and up,5126,Amanda Gonzales,33,Alabama,136
+486,2021-04-10,529,CMB Free Dating App,DATING,4.0,48845,40000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-08-01,4.19.0.2320,4.4 and up,2615,Jacqueline Russell,41,Massachusetts,362
+487,2021-04-10,311,Find Real Love — YouLove Premium Dating,DATING,4.5,212626,11000000.0,10000000,Free,0.0,Mature 17+,Dating,2018-07-31,4.17.2,4.1 and up,4954,Gregory Knight,40,Maine,277
+488,2021-04-10,538,BBW Dating & Plus Size Chat,DATING,4.4,12632,29000000.0,1000000,Free,0.0,Mature 17+,Dating,2018-07-27,3.5.0.1,4.1 and up,1471,Joshua Webster,43,South Carolina,375
+489,2021-04-10,584,Zoosk Dating App: Meet Singles,DATING,4.0,516801,0.0,10000000,Free,0.0,Mature 17+,Dating,2018-08-02,Varies with device,Varies with device,9804,Gregory Davis,64,Idaho,395
+490,2021-04-10,630,Casual Dating & Adult Singles - Joyride,DATING,4.5,61637,11000000.0,5000000,Free,0.0,Mature 17+,Dating,2018-07-31,4.17.2,4.1 and up,2935,Jennifer Pineda,54,Louisiana,356
+491,2021-04-10,390,imo free video calls and chat,COMMUNICATION,4.3,4785988,11000000.0,500000000,Free,0.0,Everyone,Communication,2018-06-08,9.8.000000010501,4.0 and up,10007,Dennis Weaver,31,Wisconsin,320
+492,2021-04-10,45,free video calls and chat,COMMUNICATION,4.2,594728,0.0,50000000,Free,0.0,Everyone,Communication,2018-07-19,7.3(800241),4.4 and up,9960,Mitchell Brooks,64,Pennsylvania,141
+493,2021-04-10,963,Viber Messenger,COMMUNICATION,4.3,11335255,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-18,Varies with device,Varies with device,9315,Austin Johnson,51,Texas,120
+494,2021-04-10,916,Skype - free IM & video calls,COMMUNICATION,4.1,10484169,0.0,1000000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,8344,Brooke Fuentes,53,Vermont,147
+495,2021-04-10,706,WeChat,COMMUNICATION,4.2,5387446,0.0,100000000,Free,0.0,Everyone,Communication,2018-07-31,Varies with device,Varies with device,9483,Sally Mcdonald MD,38,California,175
+496,2021-04-10,29,Vonage Mobile® Call Video Text,COMMUNICATION,4.1,29208,23000000.0,1000000,Free,0.0,Everyone,Communication,2016-09-28,2.9.8,2.3.3 and up,9390,Stacy Reed,52,New Mexico,103
+497,2021-04-10,508,"Moco - Chat, Meet People",DATING,4.2,313724,0.0,10000000,Free,0.0,Mature 17+,Dating,2018-08-04,2.6.141,4.1 and up,6762,Mr. George Randall,46,Nevada,264
+498,2021-04-10,787,Glide - Video Chat Messenger,COMMUNICATION,4.3,350154,0.0,10000000,Free,0.0,Everyone,Communication,2018-07-29,Varies with device,Varies with device,5363,Danielle George,19,Texas,306
+499,2021-04-10,529,Talkray - Free Calls & Texts,COMMUNICATION,4.2,244863,0.0,10000000,Free,0.0,Everyone,Communication,2018-05-29,Varies with device,Varies with device,8758,Jacqueline Russell,41,Massachusetts,386
+500,2021-04-10,73,LINE: Free Calls & Messages,COMMUNICATION,4.2,10790289,0.0,500000000,Free,0.0,Everyone,Communication,2018-07-26,Varies with device,Varies with device,6172,Michael Smith,44,Vermont,241
+501,2021-04-10,751,KakaoTalk: Free Calls & Text,COMMUNICATION,4.3,2546527,0.0,100000000,Free,0.0,Everyone,Communication,2018-08-03,Varies with device,Varies with device,6045,Bryan Moore,27,North Dakota,276
+502,2021-04-10,966,JusTalk - Free Video Calls and Fun Video Chat,COMMUNICATION,4.6,191032,26000000.0,5000000,Free,0.0,Everyone,Communication,2018-08-04,7.2.29,4.0.3 and up,6009,Susan Santos,21,Florida,215
+503,2021-04-10,49,Calculator,DATING,2.6,57,6200000.0,1000,Paid,6.99,Everyone,Dating,2017-10-25,1.1.6,4.0 and up,2797,Tanya Peters,36,Kansas,330
+504,2021-04-10,685,Truth or Dare Pro,DATING,4.3,0,20000000.0,50,Paid,1.49,Teen,Dating,2017-09-01,1.0,4.0 and up,9118,Donald Hoover,51,Connecticut,181
+505,2021-04-10,560,"Private Dating, Hide App- Blue for PrivacyHider",DATING,4.3,0,18000.0,100,Paid,2.99,Everyone,Dating,2017-07-25,1.0.1,4.0 and up,7651,Jerome Nielsen,49,Illinois,169
+506,2021-04-10,928,Ad Blocker for SayHi,DATING,4.3,4,1200000.0,100,Paid,3.99,Teen,Dating,2018-08-02,1.2,4.0.3 and up,991,David Morgan,28,Florida,179
+507,2021-04-10,992,AMBW Dating App: Asian Men Black Women Interracial,DATING,3.5,2,17000000.0,100,Paid,7.99,Mature 17+,Dating,2017-01-21,1.0.1,4.0 and up,804,Debbie Archer,52,New Mexico,239
+508,2021-04-10,167,OkCupid Dating,DATING,4.1,285726,15000000.0,10000000,Free,0.0,Mature 17+,Dating,2018-07-30,11.10.1,4.1 and up,7228,Thomas Terry,35,Pennsylvania,246
+509,2021-04-10,401,Match™ Dating - Meet Singles,DATING,3.7,76646,0.0,10000000,Free,0.0,Mature 17+,Dating,2018-07-23,Varies with device,Varies with device,6585,Jerry Burgess,53,Utah,367
+510,2021-04-10,126,"Hily: Dating, Chat, Match, Meet & Hook up",DATING,4.1,2556,56000000.0,100000,Free,0.0,Mature 17+,Dating,2018-08-01,2.5.2,4.1 and up,5690,Dylan Smith,64,Virginia,135
+511,2021-04-10,775,Hinge: Dating & Relationships,DATING,4.2,7779,12000000.0,500000,Free,0.0,Mature 17+,Dating,2018-08-03,6.1.3,5.0 and up,5691,David Harris,29,Virginia,184
+512,2021-04-10,535,"Moco+ - Chat, Meet People",DATING,4.2,1545,0.0,10000,Paid,3.99,Mature 17+,Dating,2018-06-19,2.6.139,4.1 and up,6763,Beth James,22,West Virginia,136
