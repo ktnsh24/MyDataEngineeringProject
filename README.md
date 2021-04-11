@@ -124,25 +124,21 @@ In this project, the data available for batch and stream processing at the clien
 
 In the case of stream processing, the python script (see insert_data_to_api.py in the repository) read the data from the users_app_details_stream.csv dataset, convert it to JSON format and POST it to the provided API endpoint.
 
-In the case of batch processing,.............
+In the case of batch processing, a client itself will drop the data in the storage. The client can be here a company who is collecting the user's data on an everyday basis.
 
 ## Connect
 In the scenario of stream processing, a data pipeline will pull data from an API and send data to the buffer. AWS API Gateway POST method is used to pull data from the client. Every time data will reach to the API endpoint, it will trigger the lambda function and send data to AWS Kinesis. 
 
-In the scenario of batch processing,............ 
-
 ## Buffer
-The two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis in stream processing to queue the data. The data will lineup in Kinesis every time the API endpoint trigger the lambda function in the AWS.
+The two most discussed message queue tools are AWS Kinesis and Kinesis firehose. We will use Kinesis in stream processing to queue the data. The data will lineup in Kinesis every time the API endpoint trigger the lambda function in the AWS. The Kinesis firehose is used to send the data inside the warehouse. 
 
 ## Processing
 AWS lambda is used to perform stream processing at different stages. The lambda is used to send data from API to Kinesis, Kinesis to S3 bucket, Kinesis to DynamoDB.
 
-In case of batch processing, AWS Glue is used to perform ETL jobs. Glue take the data from S3 bucket, transform it and, and upload it into redshift schema.
+In case of batch processing, AWS Lambda is used to perform to processed data initially and AWS Glue is used to perform ETL jobs. Glue take the data from S3 bucket, transform it and, and load it into redshift schema.
 
 ## Storage
-In the case of stream processing, the service for storing purpose we want to use to hold and store the raw stream data of varying sizes is S3, DynamoDB and Redshift. S3 stands for simple storage service, and it works as a data lake in an AWS environment. S3 will store the data in JSON format. Later the data can be used according to required applications. DynamoDB is a NoSQL database and saving the user's app data in wide column format. AWS redshift is a data warehouse. Redshift allows us to create schema inside its cluster and saved streamed data in a table.
-
-In case batch processing,........
+In the case of stream and batch processing, the service for storing purpose we want to use to hold and store the raw stream data of varying sizes is S3, DynamoDB and Redshift. S3 stands for simple storage service, and it works as a data lake in an AWS environment. S3 will store the data in JSON format. Later the data can be used according to required applications. DynamoDB is a NoSQL database and saving the user's app data in wide column format. AWS redshift is a data warehouse. Redshift allows us to create schema inside its cluster and saved streamed data in a table.
 
 ## Visualization
 Postman REST API is used to print the data based on input user_id. REST API GET method allows us to call database. Here, we are extracting the data from the DynamoDB.
@@ -163,34 +159,38 @@ For ease of implementation and testing, we will build the data pipeline in stage
 ### Storing Data Stream
 ### Processing Data Stream
 the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
+
+
 ## Batch Processing
 For ease of implementation and testing, the batch processing pipeline is built in 3 stages and these 3 stages shown below.
 
-Add Diagram here
+![](Images/BatchProcessing.png)
 
-Store: We assume here the client is putting the everyday data inside the S3 bucket, the bucket name is users-app-batch-client-data. The data is described in the "Dataset" section and called "users_app_batch_client_data". The data is available in .csv format. The location where the client data is saved inside the S3 bucket is users-app-batch-client-data/incoming_client_data. Once the data is here, initial processing is performed by AWS Lambda everyday at 23:00 PM.
+### Store 
+We assume here the client is putting the everyday data inside the S3 bucket, the bucket name is users-app-batch-client-data. The data is described in the "Dataset" section and called "users_app_batch_client_data". The data is available in .csv format. The location where the client data is saved inside the S3 bucket is users-app-batch-client-data/incoming_client_data. Once the data is here, initial processing is performed by AWS Lambda everyday at 23:00 PM.
 
-Add image here
+![](Images/IncomingClientData.png)
 
 The s3 bucket users-app-batch-client-data includes another folder processed_client_data and the folder contains the processed data coming after processing performed by AWS Lambda. 
 
-Add image here
+![](Images/ProcessedClientData.png)
 
 The redshift data warehouse is used to save all the processed data coming from the ETL processing stage. Once the data is processed by AWS Glue job every day, the data is saved inside the Redshift warehouse, so we can use the data for visualization purposes.
 
-Processing: The processing is performed in two stages. One by AWS Lambda and the second by Glue Job. 
+### Processing 
+The processing is performed in two stages. One by AWS Lambda and the second by Glue Job. 
 
 In the first processing stage i.e. by Lambda, it takes data from users-app-batch-client-data/incoming_client_data and drops the rows which include nuns. It changes the date format to %Y-%m-%d format. And finally, it removes the expected characters from the column, for example removing of $ sign from the "price" column.
 
-Add the processing script here.
+![](Images/LambdaProcessingScript.png) 
 
 In the second stage of processing, ETL Job is performed by AWS Glue. In this stage, Glue mapped the correct data type to redshift, defined in the table inside redshift. The Glue job runs every day at 23:30, it Extracts data from the S3 bucket "users-app-batch-client-data/processed_client_data", Transform the data into correct data type amd Load data inside the  redshift warehouse.
 
-Add ETL image here
+![](Images/GlueProcessingScript.png) 
 
-Visualization: In the visualization stage, AWS QuickSight is connected to the Redshift warehouse, and it visualizes the data based on ETL data coming from the processing stage.
+### Visualization
+In the visualization stage, AWS QuickSight is connected to the Redshift warehouse, and it visualizes the data based on ETL data coming from the processing stage.
 
-## Visualizations
 
 # Demo
 - You could add a demo video here
