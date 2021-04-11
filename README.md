@@ -146,9 +146,6 @@ Apart from it, as a BI tool, Looker is used to performing analytics on data. The
 
 # Pipelines
 
-- Explain the pipelines for processing that you are building
-- Go through your development and add your source code
-
 ## Stream Processing
 For ease of implementation and testing, we will build the data pipeline in stages. There are 5 stages and these 5 stages shown below.
 
