@@ -71,7 +71,7 @@ As described in the project overview section, as an analytics-based company, we 
 
 In this dataset most of the app type is free. Basically, most of the app mentioned in this dataset belongs to the free tier type and very few apps are paid type, which makes hard to understand that users buys app or not!!!!
 
-# Data Cleaning and Preprocessing
+## Data Cleaning and Preprocessing
 
 In real life, data is reaching to the API endpoint or any cloud database might include many nuns, duplicates, or unexpected data types in it. Companies implemented different strategies to tackle this issue. After doing, a thorough check on the Google Play Store apps dataset, I find out the dataset has many Nan, duplicates, and unexpected datatypes in a different column. Below, I will describe how I manage data cleaning and preprocessing steps.
 
