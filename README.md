@@ -161,7 +161,7 @@ the data type of the different column is changed based on the type of data colum
 ## Batch Processing
 For ease of implementation and testing, the batch processing pipeline is built in 3 stages and these 3 stages shown below.
 
-![](Images/BatchProcessingPipeline.png)
+![](Images/BatchProcessing.png)
 
 ### Store 
 We assume here the client is putting the everyday data inside the S3 bucket, the bucket name is users-app-batch-client-data. The data is described in the "Dataset" section and called "users_app_batch_client_data". The data is available in .csv format. The location where the client data is saved inside the S3 bucket is users-app-batch-client-data/incoming_client_data. Once the data is here, initial processing is performed by AWS Lambda everyday at 23:00 PM.
