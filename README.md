@@ -62,11 +62,6 @@ For stream processing, we assume that the download date is today and data is rea
 
 After merging all the datasets together, the dataset used for stream processing is called "users_app_stream_client_data" and for batch processing called "users_app_batch_client data".
 
-users_app_stream_client_data
-add data set here.
-
-users_app_batch_client data
-add data set here
 
 - Why did I choose, and what did I like in this dataset?
 
@@ -78,7 +73,7 @@ In this dataset most of the app type is free. Basically, most of the app mention
 
 # Data Cleaning and Preprocessing
 
-In real life, data is reaching on the API endpoint or any cloud database might include many nuns, duplicates, or unexpected data types in it. Companies implemented different strategies to tackle this issue. After doing, a thorough check on the Google Play Store apps dataset, I find out the dataset has many Nan, duplicates, and unexpected datatypes in a different column. Below, I will describe how I manage data cleaning and preprocessing steps.
+In real life, data is reaching to the API endpoint or any cloud database might include many nuns, duplicates, or unexpected data types in it. Companies implemented different strategies to tackle this issue. After doing, a thorough check on the Google Play Store apps dataset, I find out the dataset has many Nan, duplicates, and unexpected datatypes in a different column. Below, I will describe how I manage data cleaning and preprocessing steps.
 
 - Data Duplicates
 
@@ -86,15 +81,20 @@ The kaggle google data set include many duplicate entries but once the fake user
 
 - Data Cleaning
 
-By running a simple python code on the user's app data I identify the data to include Nun in some rows. In the scenario of streaming, we will configure the API endpoint to validate data. If the data include nun rows, the API endpoint will reject the data. However, the dataset includes an exception, for the rating column which also includes multiple nun values, I made sure the rating is always filled with some values. To fill these values, I took the median of the rating column and filled the nun values. 
+By running a simple python code on the user's app data I identify the data include Nun in some rows. 
+
+In the scenario of streaming, we will configure the API endpoint to validate data. If the data include nun rows, the API endpoint will reject the particular row. 
+
+In the scenario of batch processing, we consider, that the data is given to us by clients and saved in the S3 bucket. Here, we will process the data, and make sure first, all the rows which include nun is removed from the the dataset except rating column.
+
+However, the dataset includes an exception for both stream and batch dataset, for the rating column which also includes multiple nun values, I made sure the rating is always filled with some values. To fill these values, I took the median of the rating column and filled the nun values. This task has been performed locally in my machine before finalising the dataset.
 
 ![](Images/FillNan.png)
 
-
 - Data Preprocessing
 
-In the data preprocessing stage, only the data type of each column is identified, but no action has been taken.
-The datatype will be changed in the processing stage inside the AWS. 
+In the data preprocessing stage, only the data type of each column is identified, but no action has been taken locally.
+The datatype will be changed in the processing stage inside the AWS for both stream and batch processing. 
 
 
 ![](Images/users_app_datatype.png)
@@ -102,12 +102,18 @@ The datatype will be changed in the processing stage inside the AWS.
 - Save Dataset
 At this stage, we make sure the data is ready to go.
 
-In the stream data processing, the data is scheduled to reach the API endpoint every one minute. Airflow is used here for scheduling purposes. The name of the dataset is "users_app_stream_client_data".
+In the stream data processing, the data is saved in local machine and will reach to the API endpoint. The name of the dataset is "users_app_stream_client_data".
 
-In the batch data processing, the data is scheduled to reach the S3 bucket at 23:00 every day. Airflow is used here for scheduling purposes. The name of the dataset is "users_app_batch_client_data".
+In the batch data processing, we imagined the data reach inside the S3 bucket everday day at 23:00. The name of the dataset is "users_app_batch_client_data".
+
+users_app_stream_client_data
+add data set here.
+
+users_app_batch_client_data
+add data set here
 
 # Used Tools
-The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing.
+The data pipeline will build around multiple tools. These tools can be categorized based on their functionality. Below you can see the platform design for streaming processing and batch processing.
 
 ![](Images/PlateformDesign.png)
 
@@ -158,6 +164,32 @@ For ease of implementation and testing, we will build the data pipeline in stage
 ### Processing Data Stream
 the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
 ## Batch Processing
+For ease of implementation and testing, the batch processing pipeline is built in 3 stages and these 3 stages shown below.
+
+Add Diagram here
+
+Store: We assume here the client is putting the everyday data inside the S3 bucket, the bucket name is users-app-batch-client-data. The data is described in the "Dataset" section and called "users_app_batch_client_data". The data is available in .csv format. The location where the client data is saved inside the S3 bucket is users-app-batch-client-data/incoming_client_data. Once the data is here, initial processing is performed by AWS Lambda everyday at 23:00 PM.
+
+Add image here
+
+The s3 bucket users-app-batch-client-data includes another folder processed_client_data and the folder contains the processed data coming after processing performed by AWS Lambda. 
+
+Add image here
+
+The redshift data warehouse is used to save all the processed data coming from the ETL processing stage. Once the data is processed by AWS Glue job every day, the data is saved inside the Redshift warehouse, so we can use the data for visualization purposes.
+
+Processing: The processing is performed in two stages. One by AWS Lambda and the second by Glue Job. 
+
+In the first processing stage i.e. by Lambda, it takes data from users-app-batch-client-data/incoming_client_data and drops the rows which include nuns. It changes the date format to %Y-%m-%d format. And finally, it removes the expected characters from the column, for example removing of $ sign from the "price" column.
+
+Add the processing script here.
+
+In the second stage of processing, ETL Job is performed by AWS Glue. In this stage, Glue mapped the correct data type to redshift, defined in the table inside redshift. The Glue job runs every day at 23:30, it Extracts data from the S3 bucket "users-app-batch-client-data/processed_client_data", Transform the data into correct data type amd Load data inside the  redshift warehouse.
+
+Add ETL image here
+
+Visualization: In the visualization stage, AWS QuickSight is connected to the Redshift warehouse, and it visualizes the data based on ETL data coming from the processing stage.
+
 ## Visualizations
 
 # Demo
