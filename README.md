@@ -106,8 +106,11 @@ In the stream data processing, the data is saved in local machine and will reach
 
 In the batch data processing, we imagined the data reach inside the S3 bucket everday day at 23:00. The name of the dataset is "users_app_batch_client_data".
 
+### users_app_stream_client_data
+
 ![](Images/users_app_stream_client_data.png)
 
+### users_app_batch_client_data
 
 ![](Images/users_app_batch_client_data.png)
 
