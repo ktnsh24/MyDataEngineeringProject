@@ -195,14 +195,10 @@ In the visualization stage, AWS QuickSight is connected to the Redshift warehous
 
 
 # Demo
-- You could add a demo video here
-- Or link to your presentation video of the project
+---
 
 # Conclusion
-Write a comprehensive conclusion.
-- How did this project turn out
-- What major things have you learned
-- What were the biggest challenges
+---
 
 # Follow Me On
 https://www.linkedin.com/in/ketan-sahu/
