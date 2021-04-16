@@ -42,7 +42,7 @@ def lambda_handler(event, context):
     timestampStr = today.strftime("%Y-%m-%d")
     # generate the name for the file with the timestamp
     mykey = 'processed_user_app_batch_data_' + timestampStr + '.csv'
-    processed_client_data_path = f"s3://users-app-batch-client-data/processed_client_data/"++ mykey
+    processed_client_data_path = f"s3://users-app-batch-client-data/processed_client_data/"+ mykey
     wr.s3.to_csv(users_app_data, processed_client_data_path, index=False)
 
     return {
