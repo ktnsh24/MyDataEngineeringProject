@@ -25,7 +25,6 @@ The objective of the project is,
     - [Storing Data Stream](#storing-data-stream)
     - [Processing Data Stream](#processing-data-stream)
   - [Batch Processing](#batch-processing)
-  - [Visualizations](#visualizations)
 - [Demo](#demo)
 - [Conclusion](#conclusion)
 - [Follow Me On](#follow-me-on)
@@ -38,7 +37,7 @@ For this project, I will assume I work for a user behavior analytics company tha
 - Create a data pipeline which can help data scientist to access data fast and accurately to develop their recommendation app charts algorithm for users
 - Create a data pipeline that can provide fault-tolerant data to draw analytics based on app developers requirement
 
-# The Data Set
+# The Data Set / Data Preparation
 In this section, I've described how I've created the dataset to use in this project.
 
 The dataset shown here for performing batch and stream processing is produced by two datasets. The app dataset is accessed from kaggle. The link is attached here. https://www.kaggle.com/lava18/google-play-store-apps
@@ -106,8 +105,11 @@ In the stream data processing, the data is saved in local machine and will reach
 
 In the batch data processing, we imagined the data reach inside the S3 bucket everday day at 23:00. The name of the dataset is "users_app_batch_client_data".
 
+### users_app_stream_client_data
+
 ![](Images/users_app_stream_client_data.png)
 
+### users_app_batch_client_data
 
 ![](Images/users_app_batch_client_data.png)
 
@@ -153,11 +155,27 @@ For ease of implementation and testing, we will build the data pipeline in stage
 ![](Images/DataPipelineDesign.png)
 
 
+### Connect Data Stream
+Every day, the user's real-time data or other requests are reaching to the API endpoint from different sources. Connect data stream is developed by using AWS API Gateway. REST API POST method is configured to collect the users' data and the GET method is configured to send the response based on the user's request. 
+The API endpoint is also verifying the data before pushing the data into AWS cloud environment. The verification will only be performed on the data points which include Nun. If this will be the case, API end point reject the data. 
 
-### Storing Data Stream
+More development can be performed here, but for the sake of simplicity, I only reject the Nun data points.
+
+### Buffer Data Stream
+When the data hits the API endpoint, the API endpoint triggers the lambda, and the lambda function pushes the data into the Kinesis stream. The Kinesis stream the data into different AWS services configured in this project. Once the data is ready in kinesis, the following data stream is configured to send the data into different services.
+
+Kinesis - DynamoDB stream: In this data stream, the data is flowing from Kinesis to DynamoDB. Lambda function gets trigger whenever the data is ready inside the kinesis, based on the table partition key and sort key defined in the dynamo DB table and lambda function the data ends up inside the DynamoDB table. 
+
+Kinesis - S3 stream: In this data stream, the data is flowing from Kinesis to the S3 bucket. Once the data ends up in the S3 bucket, it is saved inside the s3 bucket in a JSON format. Later the data can be used for different purposes. Again lambda is used here, for the processing of data before saving it inside the S3 bucket.
+
+Kinesis- Kinesis firehose - Redshift stream: This stream pipeline is used to send the data from Kinesis to the Redshift data warehouse. To send the data to Redshift in AWS, a Kinesis firehose is used to send the data into redshift. 
+
 ### Processing Data Stream
 the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
 
+### Storing Data Stream
+
+### Visualizing Data Stream
 
 ## Batch Processing
 For ease of implementation and testing, the batch processing pipeline is built in 3 stages and these 3 stages shown below.
@@ -192,14 +210,10 @@ In the visualization stage, AWS QuickSight is connected to the Redshift warehous
 
 
 # Demo
-- You could add a demo video here
-- Or link to your presentation video of the project
+---
 
 # Conclusion
-Write a comprehensive conclusion.
-- How did this project turn out
-- What major things have you learned
-- What were the biggest challenges
+---
 
 # Follow Me On
 https://www.linkedin.com/in/ketan-sahu/
