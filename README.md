@@ -171,11 +171,17 @@ Kinesis - S3 stream: In this data stream, the data is flowing from Kinesis to th
 Kinesis- Kinesis firehose - Redshift stream: This stream pipeline is used to send the data from Kinesis to the Redshift data warehouse. To send the data to Redshift in AWS, a Kinesis firehose is used to send the data into redshift. 
 
 ### Processing Data Stream
-the data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
+The data type of the different column is changed based on the type of data column persist. For example, the column "last_updated" type is changed to DateTime and the date order is changed to year-month-date.
 
 ### Storing Data Stream
+In the storing data stream, processed data from the processing data stream is saved in the different data store. The data store could be S3, Redshift data warehouse, NoSQL database such as DynamoDB or SQL data base such as RDS MySQL or RDS Postgres. 
+
+In the S3, data can be saved with different format such as JSON, CSV or Parquet.
+
+In this stream processing pipeline, the processed data is saved inside S3, redshift ware house and in NoSQL database DynamoDB.
 
 ### Visualizing Data Stream
+The visualization data stream is used to request the data from DynamoDb via GET API call or the visualize the data inside the BI via JDBC connection to Redshift. 
 
 ## Batch Processing
 For ease of implementation and testing, the batch processing pipeline is built in 3 stages and these 3 stages shown below.
@@ -209,15 +215,15 @@ In the second stage of processing, ETL Job is performed by AWS Glue. In this sta
 In the visualization stage, AWS QuickSight is connected to the Redshift warehouse, and it visualizes the data based on ETL data coming from the processing stage.
 
 
-# Demo
+---# Demo
 ---
 
-# Conclusion
+---# Conclusion
 ---
 
 # Follow Me On
 https://www.linkedin.com/in/ketan-sahu/
 
-# Appendix
+---# Appendix
 
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
