@@ -215,10 +215,10 @@ In the second stage of processing, ETL Job is performed by AWS Glue. In this sta
 In the visualization stage, AWS QuickSight is connected to the Redshift warehouse, and it visualizes the data based on ETL data coming from the processing stage.
 
 
----# Demo
----
+<!--- # Demo 
 
----# Conclusion
+
+<!--- # Conclusion
 ---
 
 # Follow Me On
@@ -226,4 +226,4 @@ https://www.linkedin.com/in/ketan-sahu/
 
 ---# Appendix
 
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)---> 
