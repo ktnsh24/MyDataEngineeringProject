@@ -15,7 +15,7 @@ def sample_function():
 
     # Read the testfile
     data = pd.read_csv(
-        '/Users/ketansahu/Documents/DataEngineeringProject/GitHubRepo/users_app_data_stream.csv', sep=',')
+        '/Users/ketansahu/Documents/DataEngineeringProject/GitHubRepo/StreamProcessing/users_app_data_stream_temp1.csv', sep=',')
     for i in data.index:
         # print(i)
         try:
@@ -31,5 +31,5 @@ def sample_function():
         except:
             print(data.loc[i])
 
-    if __name__ == "__main__":
-        sample_function()
+if __name__ == "__main__":
+    sample_function()
